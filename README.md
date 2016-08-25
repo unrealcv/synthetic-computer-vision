@@ -97,6 +97,9 @@ Vazquez, David, et al. "Virtual and real world adaptation for pedestrian detecti
 <div id='chair'></div>
 Aubry, Mathieu, et al. "Seeing 3d chairs: exemplar part-based 2d-3d alignment using a large dataset of cad models." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2014.
 
+## 2013
+Zia, M. Zeeshan, et al. "Detailed 3d representations for object recognition and modeling." IEEE transactions on pattern analysis and machine intelligence 35.11 (2013): 2608-2623.
+
 ## 2012
 <div id='sintel'></div>
 Butler, Daniel J., et al. "A naturalistic open source movie for optical flow evaluation." European Conference on Computer Vision. Springer Berlin Heidelberg, 2012.
