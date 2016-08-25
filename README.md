@@ -1,6 +1,6 @@
 # Synthetic for Computer Vision
 
-A list of synthetic dataset for computer vision
+A list of synthetic dataset for computer vision. This is a repo for tracking the progress of using synthetic images for computer vision research.
 
 See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synthetic
 
@@ -35,12 +35,12 @@ Synthetic image dataset. Information includes, number of images, task, project l
 
 # 3. Tools
 
-| Name              | Platform |
-| ---               | ---      |
-| Render for CNN    | Blender  |
-| UETorch           | Unreal Engine 4(UE4)      |
-| UnrealCV          | UE4 |
-| VizDoom           | Doom |
+| Name           | Platform             |
+| ---            | ---                  |
+| Render for CNN | Blender              |
+| UETorch        | Unreal Engine 4(UE4) |
+| UnrealCV       | UE4                  |
+| VizDoom        | Doom                 |
 
 ## Project page
 - Render for CNN
@@ -66,7 +66,7 @@ Synthetic image dataset. Information includes, number of images, task, project l
 Ros, German, et al. "The SYNTHIA dataset: A large collection of synthetic images for semantic segmentation of urban scenes." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2016. 
 
 <div id='virtualkitti'></div>
-Gaidon, Adrien, et al. "Virtual Worlds as Proxy for Multi-Object Tracking Analysis." arXiv preprint arXiv:1605.06457 (2016). 
+[Gaidon, Adrien, et al. "Virtual Worlds as Proxy for Multi-Object Tracking Analysis." arXiv preprint arXiv:1605.06457 (2016). ](http://download.xrce.xerox.com/virtual-kitti-1.2/virtual_worlds_multi_object_tracking.pdf)
 
 <div id='playing_for_data'></div>
 Richter, Stephan R., et al. "Playing for data: Ground truth from computer games." arXiv preprint arXiv:1608.02192 (2016).
@@ -81,7 +81,7 @@ Kempka, Michał, et al. "ViZDoom: A Doom-based AI Research Platform for Visual R
 Choi, Sungjoon, et al. "A large dataset of object scans." arXiv preprint arXiv:1602.02481 (2016).
 
 <div id='sceneflow'></div>
-Mayer, Nikolaus, et al. "A Large Dataset to Train Convolutional Networks for Disparity, Optical Flow, and Scene Flow Estimation." arXiv preprint arXiv:1512.02134 (2015).
+[Mayer, Nikolaus, et al. "A Large Dataset to Train Convolutional Networks for Disparity, Optical Flow, and Scene Flow Estimation." arXiv preprint arXiv:1512.02134 (2015).](https://arxiv.org/pdf/1512.02134v1.pdf)
 
 ## 2015
 <div id='render_for_cnn'></div>
@@ -106,7 +106,7 @@ Marin, Javier, et al. "Learning appearance in virtual scenarios for pedestrian d
 
 ## 2007
 <div id='ovvv'></div>
-Taylor, Geoffrey R., Andrew J. Chosak, and Paul C. Brewer. "Ovvv: Using virtual worlds to design and evaluate surveillance systems." 2007 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, 2007.
+[Taylor, Geoffrey R., Andrew J. Chosak, and Paul C. Brewer. "Ovvv: Using virtual worlds to design and evaluate surveillance systems." 2007 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, 2007.](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=4270516&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D4270516)
 
 
 
