@@ -1,5 +1,7 @@
 # Synthetic for Computer Vision
 
+notice: this file is generated automatically from README_raw.md and paper_list.yml. Do not edit this directly.
+
 A list of synthetic dataset for computer vision. This is a repo for tracking the progress of using synthetic images for computer vision research.
 
 See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synthetic
@@ -7,12 +9,12 @@ See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synth
 # 1. Image dataset
 Synthetic image dataset. Information includes, number of images, task, project link (click project title) .
 
-| Name                 | Task          | Ground Truth  |   Publication                      |
-| ---                  | ---           | ------------- |   ---                       |
-| Virtual KITTI        |               |               |  [CVPR2016](#virtualkitti)  |
-| Synthetia            |               |               |  [CVPR2016](#synthetis)     |
-| Sintel               | Optical Flow  |               |  [ECCV2012](#sintel)        |
-| SceneFlow            |               |               |  [CVPR2016](#sceneflow)     |
+| Name          | Task         | Ground Truth | Publication               |
+|:--------------|:-------------|:-------------|:--------------------------|
+| Virtual KITTI |              |              | [CVPR2016](#virtualkitti) |
+| Synthetia     |              |              | [CVPR2016](#synthetis)    |
+| Sintel        | Optical Flow |              | [ECCV2012](#sintel)       |
+| SceneFlow     |              |              | [CVPR2016](#sceneflow)    |
 
 ## Project page
 
@@ -22,11 +24,11 @@ Synthetic image dataset. Information includes, number of images, task, project l
 
 # 2. 3D Model Repository
 
-| Name                    | No. Objects | No. Types | Format | Publication          |
-| ---                     | ---         | ---       | ---    | ---                  |
-| ShapeNet                |             |           |        |                      |
-| 3dscan                  |             |           | PLY    | [ArXiv](#3dscan)     |
-| seeing3Dchairs          |             |           |        | [CVPR2014](#chair)   |
+| Name           | No. Objects | No. Types | Format | Publication        |
+|:---------------|:------------|:----------|:-------|:-------------------|
+| ShapeNet       |             |           |        |                    |
+| 3dscan         |             |           | PLY    | [ArXiv](#3dscan)   |
+| seeing3Dchairs |             |           |        | [CVPR2014](#chair) |
 
 ## Project page
 - [ShapeNet](http://shapenet.cs.stanford.edu/)
@@ -36,7 +38,7 @@ Synthetic image dataset. Information includes, number of images, task, project l
 # 3. Tools
 
 | Name           | Platform             |
-| ---            | ---                  |
+|:---------------|:---------------------|
 | Render for CNN | Blender              |
 | UETorch        | Unreal Engine 4(UE4) |
 | UnrealCV       | UE4                  |
@@ -60,10 +62,16 @@ Synthetic image dataset. Information includes, number of images, task, project l
 
 # Reference
 
+This list is generated automatically using the awesome scholar.py library. Thanks to ...
+
+Information is retrieved from google scholar. Send [me](qiuwch@gmail.com) an email if you spot any mistake.
+
+Citation is from google scholar by the date: xxx. as an indicator of impact.
+
 ## 2016
- 
+
 <div id='synthia'></div>
-Ros, German, et al. "The SYNTHIA dataset: A large collection of synthetic images for semantic segmentation of urban scenes." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2016. 
+Ros, German, et al. "The SYNTHIA dataset: A large collection of synthetic images for semantic segmentation of urban scenes." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2016.
 
 <div id='virtualkitti'></div>
 [Gaidon, Adrien, et al. "Virtual Worlds as Proxy for Multi-Object Tracking Analysis." arXiv preprint arXiv:1605.06457 (2016). ](http://download.xrce.xerox.com/virtual-kitti-1.2/virtual_worlds_multi_object_tracking.pdf)
@@ -110,10 +118,3 @@ Marin, Javier, et al. "Learning appearance in virtual scenarios for pedestrian d
 ## 2007
 <div id='ovvv'></div>
 [Taylor, Geoffrey R., Andrew J. Chosak, and Paul C. Brewer. "Ovvv: Using virtual worlds to design and evaluate surveillance systems." 2007 IEEE Conference on Computer Vision and Pattern Recognition. IEEE, 2007.](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=4270516&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D4270516)
-
-
-
-
-
-
-
