@@ -29,3 +29,8 @@
   cluster_id: 15124407213489971559
 
 - title: "Ovvv: Using virtual worlds to design and evaluate surveillance systems."
+
+- title: "UnrealCV: Connecting Computer Vision to Unreal Engine"
+  code: "http://unrealcv.github.io"
+
+- title: "ViZDoom: A Doom-based AI Research Platform for Visual Reinforcement Learning"
