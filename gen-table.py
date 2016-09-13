@@ -1,5 +1,5 @@
 # Use scholar.py to format table
-import sys, yaml, pickle, os
+import sys, yaml, pickle, os, time
 sys.path.append('scholar_py')
 import scholar
 
@@ -11,7 +11,7 @@ def get_paper_data(querier, paper):
         print 'Query by cluster_id'
         query = scholar.ClusterScholarQuery(cluster = cluster_id)
     else:
-        print 'Query by title'
+        print 'Query by title "%s"' % title
         query = scholar.SearchScholarQuery()
         query.set_phrase(title)
 
@@ -19,6 +19,7 @@ def get_paper_data(querier, paper):
     scholar.txt(querier, with_globals=True)
 
     articles = querier.articles
+    time.sleep(1)
     # for art in articles:
     #     print(encode(art.as_txt()) + '\n')
     return articles[0] # Only return the top result
@@ -85,16 +86,22 @@ def txt(querier):
     for art in articles:
         print(encode(art.as_txt()) + '\n')
 
+def load_paper_list(paper_list_file):
+    with open(paper_list_file) as f:
+        paper_list = yaml.load(f)
+    return paper_list
+
 def main():
     querier = scholar.ScholarQuerier()
     settings = scholar.ScholarSettings()
     settings.set_citation_format(scholar.ScholarSettings.CITFORM_BIBTEX)
     querier.apply_settings(settings)
+    scholar.ScholarConf.LOG_LEVEL = 3
+
+    paper_list_file = 'synthetic.yml'
+    paper_list = load_paper_list(paper_list_file)
 
     cache_file = 'papers.pkl'
-    with open('paper_list.yml') as f:
-        paper_list = yaml.load(f)
-
     cache = read_cache(cache_file)
     if cache and cache.get('paper_list') == paper_list:
         print 'Use cache from file %s' % cache_file
@@ -110,6 +117,11 @@ def main():
 
     # format_scholar_data(scholar_data)
     format_by_year(scholar_data)
+
+    # Merge yml data with google scholar data
+    assert(len(paper_list) == scholar_data)
+
+    format_scholar_data(scholar_data)
 
 
 if __name__ == '__main__':
