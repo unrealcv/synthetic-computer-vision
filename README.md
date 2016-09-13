@@ -94,7 +94,8 @@ Only the first author is shown in the text. Hover on the author name to see the 
 	([code](http://unrealcv.github.io))   
 - <div id="lerer2016learning"/> [Lerer, Adam, et al.](# "Lerer, Adam and Gross, Sam and Fergus, Rob"), "[Learning Physical Intuition of Block Towers by Example](http://arxiv.org/abs/1603.01312)"  2016 
 
-	([code](https://github.com/facebook/UETorch))  ([citation:9](http://scholar.google.com/scholar?cites=12846348306706460250&as_sdt=2005&sciodt=0,5&hl=en)) 
+	([code](https://github.com/facebook/UETorch))  ([citation:9](http://scholar.google.com/scholar?cites=12846348306706460250&as_sdt=2005&sciodt=0,5&hl=en))
+- <div id="qiu2016unrealcv"/> [Movshovitz-Attias, Yair, et al.](# "Movshovitz-Attias, Yair, Takeo Kanade, and Yaser Sheikh."), "[How useful is photo-realistic rendering for visual learning?](http://arxiv.org/abs/1603.08152)"  Geometry Meets Deep Learning ECCV 2016 Workshop 
 
 ## 2015 
 (Total=3)
