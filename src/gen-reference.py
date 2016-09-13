@@ -115,7 +115,7 @@ def main():
         template = f.read()
         readme = template.format(reference = reference, date = date)
 
-    with open('README.md', 'w') as f:
+    with open('../README.md', 'w') as f:
         f.write(readme)
     # format_scholar_data(scholar_data)
 
