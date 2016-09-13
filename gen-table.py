@@ -69,7 +69,7 @@ def load_paper_list(paper_list_file):
 def main():
     querier = scholar.ScholarQuerier()
     settings = scholar.ScholarSettings()
-    scholar.ScholarConf.LOG_LEVEL = 3 
+    scholar.ScholarConf.LOG_LEVEL = 3
 
     paper_list_file = 'synthetic.yml'
     paper_list = load_paper_list(paper_list_file)
@@ -89,7 +89,7 @@ def main():
         save_cache(cache_file, cache)
 
     # Merge yml data with google scholar data
-    assert(len(paper_list) == scholar_data)
+    assert(len(paper_list) == len(scholar_data))
 
     format_scholar_data(scholar_data)
 
