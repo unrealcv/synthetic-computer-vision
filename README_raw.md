@@ -62,10 +62,10 @@ Synthetic image dataset. Information includes, number of images, task, project l
 
 # Reference
 
-This reference list is generated automatically using script 'gen-reference.py` in this repo. The script uses the awesome [scholar.py](https://github.com/ckreibich/scholar.py) library.
+This reference list is generated automatically using script `gen-reference.py` in this repo. The script uses the awesome [scholar.py](https://github.com/ckreibich/scholar.py) library.
 
-Information is retrieved from google scholar. Send [me](qiuwch@gmail.com) an email if you spot any mistake. Citation information is from google scholar by the date: {{ date }} as an indicator of impact. It is also helpful to discover related works.
+Information is retrieved from google scholar. Send [me](qiuwch@gmail.com) an email if you spot any mistake. Citation information is from google scholar by the date: {date} as an indicator of impact. It is also helpful to discover related works.
 
 Only the first author is shown in the text. Hover on the author name to see the complete author list.
 
-{{ reference }}
+{reference}
