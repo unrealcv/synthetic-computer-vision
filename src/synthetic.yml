@@ -62,3 +62,8 @@
 - title:  "Learning Physical Intuition of Block Towers by Example"
   code: https://github.com/facebook/UETorch
   tag: tool
+
+- title: "How useful is photo-realistic rendering for visual learning?"
+  link: http://arxiv.org/abs/1603.08152  
+  source: Geometry Meets Deep Learning ECCV 2016 Workshop"
+
