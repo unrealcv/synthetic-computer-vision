@@ -55,6 +55,8 @@ Synthetic image dataset. Information includes, number of images, task, project l
 [github](https://github.com/facebook/UETorch)
 <iframe src="http://ghbtns.com/github-btn.html?user=facebook&repo=UETorch&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
 - UnrealCV [github](http://unrealcv.github.io)
+- RealismCNN [github](https://github.com/junyanz/RealismCNN)
+- Abnormality Detection in Images(http://paul.rutgers.edu/~babaks/abnormality_detection.html)
 
 # Related topics
 ## Domain Transfer
