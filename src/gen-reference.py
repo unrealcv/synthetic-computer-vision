@@ -15,16 +15,19 @@ def format_scholar_data(scholar_data):
 
 def format_as_md_row(paper):
     template = [
-        # if exist, use 1, if not use '' or 2
-        ('', '- ', ''),
-        ('ID', '<div id="{ID}"/>', ''),
-        ('author', '[{first_author}, et al.](# "{author}"),', ''), # Hover to see tooltip
-        ('url', '"[{title}]({url})"', '"{title}"'),
+        # if k exist, use t1, if not exist use t2
+        # (k, t1, t2)
+        ('',          '- ', ''),
+        ('ID',        '<div id="{ID}"/>', ''),
+        ('author',    '[{first_author}, et al.](# "{author}"),', ''), # Hover to see tooltip
+        # ('url',       '"[{title}]({url})"', '"{title}"'),
+        ('title',     '{title}', 'missing title'),
         ('booktitle', '{booktitle}', ''),
-        ('year', '{year}', ''),
-        ('', '\n\n\t', ''),
-        ('code', '([code]({code}))', ''),
-        ('project', '([project]({project}))', ''),
+        ('year',      '{year}', ''),
+        ('',          '\n\n\t', ''),
+        ('code',      '([code]({code}))', ''),
+        ('url',       '([pdf]({url}))', ''),
+        ('project',   '([project]({project}))', ''),
         ('num_citations', '([citation:{num_citations}]({url_citations}))', '')
     ]
 
@@ -52,10 +55,10 @@ def format_by_year(papers):
     for year in years:
         rows = [format_as_md_row(paper) for paper in papers if int(paper['year']) == year]
         section_head = '## %d \n(Total=%d)' % (year, len(rows))
-        sections.append('\n'.join([section_head] + rows))
+        sections.append('\n\n'.join([section_head] + rows))
 
-    content = '\n\n'.join(sections)
-    print content
+    content = '\n'.join(sections)
+    # print content
     return content
 
 def load_paper_list(paper_list_file):
@@ -80,6 +83,8 @@ def merge_data(paper_list, scholar_data_list):
             bibdata = bibtexparser.loads(scholar_data.citation_data)
             bibinfo = bibdata.entries[0]
             paper.update(bibdata.entries[0])
+        else:
+            print 'Warning: %s does not have citation_data' % yaml_paper_info['title']
 
         paper.update(yaml_paper_info)
         # This should have the highest priority and overwrite others
@@ -102,7 +107,7 @@ def main():
     paper_list = load_paper_list(paper_list_file)
 
     scholar_data = scholarutil.get_scholar_data(paper_list)
-    format_scholar_data(scholar_data)
+    # format_scholar_data(scholar_data)
 
     papers = merge_data(paper_list, scholar_data)
 
@@ -120,7 +125,6 @@ def main():
     with open('README.md', 'w') as f:
         f.write(readme)
     # format_scholar_data(scholar_data)
-
 
 if __name__ == '__main__':
     main()
