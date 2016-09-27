@@ -1,5 +1,5 @@
 # Use scholar.py to format table
-import sys, yaml, pickle, os, time, datetime
+import sys, yaml, pickle, os, time, datetime, argparse
 import bibtexparser
 cur_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(cur_dir)
@@ -106,7 +106,7 @@ def merge_data(paper_list, scholar_data_list):
 def main():
     paper_list_file = 'synthetic.yml'
     parser = argparse.ArgumentParser()
-    parser.add_argument('yaml_file', default=paper_list_file)
+    parser.add_argument('--yaml_file', default=paper_list_file)
 
     args = parser.parse_args()
     paper_list_file = args.yaml_file
