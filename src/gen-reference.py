@@ -63,31 +63,31 @@ def load_paper_list(paper_list_file):
         paper_list = yaml.load(f)
     return paper_list
 
-def merge_data(paper_list, scholar_data):
+def merge_data(paper_list, scholar_data_list):
     # Merge yml data with google scholar data
-    assert(len(paper_list) == len(scholar_data))
+    assert(len(paper_list) == len(scholar_data_list))
     papers = []
-    for v in range(len(paper_list)):
+    for yaml_paper_info, scholar_data in zip(paper_list, scholar_data_list):
         paper = dict()
-        # paper = paper_list[v]
 
-        meta = scholar_data[v]
         # see __getitem__ of ScholarArticle
-        attrs = dict([(key, meta.attrs[key][0]) for key in meta.attrs.keys()])
+        attrs = dict([(key, scholar_data.attrs[key][0]) for key in scholar_data.attrs.keys()])
         paper.update(attrs)
-        paper['citation_data'] = meta.citation_data
 
-        bibdata = bibtexparser.loads(meta.citation_data)
-        bibinfo = bibdata.entries[0]
-        paper.update(bibdata.entries[0])
+        if scholar_data.citation_data:
+            paper['citation_data'] = scholar_data.citation_data
+            print 'citation data %s' % scholar_data.citation_data
+            bibdata = bibtexparser.loads(scholar_data.citation_data)
+            bibinfo = bibdata.entries[0]
+            paper.update(bibdata.entries[0])
 
-        paper.update(paper_list[v])
+        paper.update(yaml_paper_info)
         # This should have the highest priority and overwrite others
 
-        if len(papers) == 0:
-            # Only do it once
-            print 'Scholar data field %s' % attrs.keys()
-            print 'Bib data fields %s' % bibinfo.keys()
+        # if len(papers) == 0:
+        #     # Only do it once
+        #     print 'Scholar data field %s' % attrs.keys()
+        #     print 'Bib data fields %s' % bibinfo.keys()
 
         if paper.get('author'):
             paper['first_author'] = paper['author'].split('and')[0].strip()
