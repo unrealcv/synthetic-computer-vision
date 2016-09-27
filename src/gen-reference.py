@@ -1,5 +1,6 @@
 # Use scholar.py to format table
-import sys, yaml, pickle, os, time, ipdb, bibtexparser, datetime
+import sys, yaml, pickle, os, time, datetime, argparse
+import bibtexparser
 import scholarutil
 
 def format_scholar_data(scholar_data):
@@ -97,6 +98,12 @@ def merge_data(paper_list, scholar_data):
 
 def main():
     paper_list_file = 'synthetic.yml'
+    parser = argparse.ArgumentParser()
+    parser.add_argument('yaml_file', default=paper_list_file)
+
+    args = parser.parse_args()
+    paper_list_file = args.yaml_file
+
     paper_list = load_paper_list(paper_list_file)
 
     scholar_data = scholarutil.get_scholar_data(paper_list)
