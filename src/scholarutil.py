@@ -1,8 +1,9 @@
-import sys, pickle, os
+import sys, pickle, os, time, yaml
 sys.path.append('scholar_py')
 import scholar
 
-cache_file = 'papers.pkl'
+# cache_file = 'papers.pkl'
+cache_file = 'papers.yml'
 
 def get_paper_data(querier, paper):
     title = paper.get('title')
@@ -40,6 +41,7 @@ def get_scholar_data(paper_list):
         scholar_data = cache['scholar_data']
     else:
         print 'Get data from google scholar'
+        missing_paper_list
         scholar_data = [get_paper_data(querier, v) for v in paper_list]
         # update cache
         cache = dict(paper_list = paper_list,
@@ -49,7 +51,7 @@ def get_scholar_data(paper_list):
     return scholar_data
 
 
-def read_cache(cache_file):
+def read_pickle_cache(cache_file):
     # Use pickle to implement cache
     print 'Load cache from file %s' % cache_file
     if not os.path.isfile(cache_file):
@@ -58,7 +60,26 @@ def read_cache(cache_file):
     with open(cache_file, 'r') as f:
         return pickle.load(f)
 
-def save_cache(cache_file, obj):
+def save_pickle_cache(cache_file, obj):
     print 'Save obj to cache %s' % cache_file
     with open(cache_file, 'w') as f:
         pickle.dump(obj, f)
+
+read_cache = read_pickle_cache
+save_cache = save_pickle_cache
+
+def read_yaml_cache(cache_file):
+    print 'Load cache from file %s' % cache_file
+    if not os.path.isfile(cache_file):
+        return None
+
+    with open(cache_file, 'r') as f:
+        return yaml.load(f)
+
+def save_yaml_cache(cache_file, obj):
+    print 'Save obj to cache %s' % cache_file
+    with open(cache_file, 'w') as f:
+        yaml.dump(obj, f)
+
+read_cache = read_yaml_cache
+save_cache = save_yaml_cache
