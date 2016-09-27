@@ -1,1 +1,1 @@
-python scholar_py/scholar.py -ddd -c 1 --author "albert einstein" --phrase "quantum theory"
+python scholar_py/scholar.py -ddd -c 1 --author "albert einstein" --phrase "quantum theory" --citation bt
