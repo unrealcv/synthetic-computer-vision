@@ -11,10 +11,10 @@ Synthetic image dataset. Information includes, number of images, task, project l
 
 | Name          | Task         | Ground Truth | Publication               |
 |:--------------|:-------------|:-------------|:--------------------------|
-| Virtual KITTI |              |              | [CVPR2016](#virtualkitti) |
-| Synthetia     |              |              | [CVPR2016](#synthetis)    |
-| Sintel        | Optical Flow |              | [ECCV2012](#sintel)       |
-| SceneFlow     |              |              | [CVPR2016](#sceneflow)    |
+| Virtual KITTI |              |              | [CVPR2016](#gaidon2016virtual) |
+| Synthetia     |              |              | [CVPR2016](#ros2016synthia)    |
+| Sintel        | Optical Flow |              | [ECCV2012](#butler2012naturalistic)       |
+| SceneFlow     |              |              | [CVPR2016](#mayer2015large)    |
 
 ## Project page
 
@@ -27,8 +27,8 @@ Synthetic image dataset. Information includes, number of images, task, project l
 | Name           | No. Objects | No. Types | Format | Publication        |
 |:---------------|:------------|:----------|:-------|:-------------------|
 | ShapeNet       |             |           |        |                    |
-| 3dscan         |             |           | PLY    | [ArXiv](#3dscan)   |
-| seeing3Dchairs |             |           |        | [CVPR2014](#chair) |
+| 3dscan         |             |           | PLY    | [ArXiv](#choi2016large)   |
+| seeing3Dchairs |             |           |        | [CVPR2014](#aubry2014seeing) |
 
 ## Project page
 - [ShapeNet](http://shapenet.cs.stanford.edu/)
