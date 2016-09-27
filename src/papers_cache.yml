@@ -1,0 +1,398 @@
+paper_list:
+- {tag: transfer, title: Learning appearance in virtual scenarios for pedestrian detection.}
+- {project: 'http://synthia-dataset.net/', tag: dataset, title: 'The SYNTHIA dataset:
+    A large collection of synthetic images for semantic segmentation of urban scenes.'}
+- {project: 'http://www.xrce.xerox.com/Research-Development/Computer-Vision/Proxy-Virtual-Worlds',
+  tag: dataset, title: Virtual Worlds as Proxy for Multi-Object Tracking Analysis.}
+- {project: null, tag: dataset, title: 'Playing for data: Ground truth from computer
+    games.'}
+- {project: null, tag: dataset, title: 'Play and Learn: Using Video Games to Train
+    Computer Vision Models.'}
+- {code: 'https://github.com/Marqt/ViZDoom', project: 'http://vizdoom.cs.put.edu.pl/',
+  tag: tool, title: 'ViZDoom: A Doom-based AI Research Platform for Visual Reinforcement
+    Learning.'}
+- {project: 'http://redwood-data.org/3dscan/', tag: model, title: A large dataset
+    of object scans.}
+- {project: null, tag: dataset, title: 'A Large Dataset to Train Convolutional Networks
+    for Disparity, Optical Flow, and Scene Flow Estimation.'}
+- {code: 'https://github.com/ShapeNet/RenderForCNN', tag: 'tool, transfer', title: 'Render
+    for cnn: Viewpoint estimation in images using cnns trained with rendered 3d model
+    views.'}
+- {project: 'http://shapenet.cs.stanford.edu/', tag: model, title: 'Shapenet: An information-rich
+    3d model repository.'}
+- {tag: transfer, title: Virtual and real world adaptation for pedestrian detection.}
+- {code: 'https://github.com/dimatura/seeing3d', project: 'http://www.di.ens.fr/willow/research/seeing3Dchairs/',
+  title: 'Seeing 3d chairs: exemplar part-based 2d-3d alignment using a large dataset
+    of cad models.'}
+- {title: Detailed 3d representations for object recognition and modeling.}
+- {cluster_id: 15124407213489971559, project: 'http://sintel.is.tue.mpg.de/', tag: 'optical
+    flow, sintel, dataset', title: A naturalistic open source movie for optical flow
+    evaluation.}
+- {title: 'Ovvv: Using virtual worlds to design and evaluate surveillance systems.'}
+- {code: 'http://unrealcv.github.io', comment: My personal project, tag: 'tool, diagnosis',
+  title: 'UnrealCV: Connecting Computer Vision to Unreal Engine'}
+- {code: 'https://github.com/facebook/UETorch', tag: tool, title: Learning Physical
+    Intuition of Block Towers by Example}
+- {title: Target-driven Visual Navigation in Indoor Scenes using Deep Reinforcement
+    Learning}
+scholar_data:
+- !!python/object:scholar.ScholarArticle
+  attrs:
+    cluster_id: ['17243485674852907889', Cluster ID, 5]
+    excerpt: [!!python/unicode 'Abstract Detecting pedestrians in images is a key
+        functionality to avoid vehicle-to-pedestrian collisions. The most promising
+        detectors rely on appearance-based pedestrian classifiers trained with labelled
+        samples. This paper addresses the following question: can a  ...', Excerpt,
+      10]
+    num_citations: [79, Citations, 3]
+    num_versions: [16, Versions, 4]
+    title: [!!python/unicode 'Learning appearance in virtual scenarios for pedestrian
+        detection', Title, 0]
+    url: ['http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5540218', URL, 1]
+    url_citation: [null, Citation link, 9]
+    url_citations: ['http://scholar.google.com/scholar?cites=17243485674852907889&as_sdt=2005&sciodt=0,5&hl=en',
+      Citations list, 7]
+    url_pdf: [null, PDF link, 6]
+    url_versions: ['http://scholar.google.com/scholar?cluster=17243485674852907889&hl=en&as_sdt=0,5',
+      Versions list, 8]
+    year: [!!python/unicode '2010', Year, 2]
+  citation_data: null
+- !!python/object:scholar.ScholarArticle
+  attrs:
+    cluster_id: ['9178628328030932213', Cluster ID, 5]
+    excerpt: [!!python/unicode 'Abstract Vision-based semantic segmentation in urban
+        scenarios is a key functionality for autonomous driving. Recent revolutionary
+        results of deep convolutional neural networks (DCNNs) foreshadow the advent
+        of reliable classifiers to perform such visual tasks.  ...', Excerpt, 10]
+    num_citations: [4, Citations, 3]
+    num_versions: [0, Versions, 4]
+    title: [!!python/unicode 'The synthia dataset: A large collection of synthetic
+        images for semantic segmentation of urban scenes', Title, 0]
+    url: ['http://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Ros_The_SYNTHIA_Dataset_CVPR_2016_paper.html',
+      URL, 1]
+    url_citation: [null, Citation link, 9]
+    url_citations: ['http://scholar.google.com/scholar?cites=9178628328030932213&as_sdt=2005&sciodt=0,5&hl=en',
+      Citations list, 7]
+    url_pdf: [null, PDF link, 6]
+    url_versions: [null, Versions list, 8]
+    year: [!!python/unicode '2016', Year, 2]
+  citation_data: null
+- !!python/object:scholar.ScholarArticle
+  attrs:
+    cluster_id: ['11727455440906017188', Cluster ID, 5]
+    excerpt: [!!python/unicode 'Abstract: Modern computer vision algorithms typically
+        require expensive data acquisition and accurate manual labeling. In this work,
+        we instead leverage the recent progress in computer graphics to generate fully
+        labeled, dynamic, and photo-realistic proxy virtual  ...', Excerpt, 10]
+    num_citations: [5, Citations, 3]
+    num_versions: [3, Versions, 4]
+    title: [!!python/unicode 'Virtual Worlds as Proxy for Multi-Object Tracking Analysis',
+      Title, 0]
+    url: ['http://arxiv.org/abs/1605.06457', URL, 1]
+    url_citation: [null, Citation link, 9]
+    url_citations: ['http://scholar.google.com/scholar?cites=11727455440906017188&as_sdt=2005&sciodt=0,5&hl=en',
+      Citations list, 7]
+    url_pdf: [null, PDF link, 6]
+    url_versions: ['http://scholar.google.com/scholar?cluster=11727455440906017188&hl=en&as_sdt=0,5',
+      Versions list, 8]
+    year: [!!python/unicode '2016', Year, 2]
+  citation_data: null
+- !!python/object:scholar.ScholarArticle
+  attrs:
+    cluster_id: ['12822958035144353200', Cluster ID, 5]
+    excerpt: [!!python/unicode 'Abstract Recent progress in computer vision has been
+        driven by high-capacity models trained on large datasets. Unfortunately, creating
+        large datasets with pixel-level labels has been extremely costly due to the
+        amount of human effort required. In this paper, we  ...', Excerpt, 10]
+    num_citations: [1, Citations, 3]
+    num_versions: [0, Versions, 4]
+    title: [!!python/unicode 'Playing for data: Ground truth from computer games',
+      Title, 0]
+    url: ['http://link.springer.com/chapter/10.1007/978-3-319-46475-6_7', URL, 1]
+    url_citation: [null, Citation link, 9]
+    url_citations: ['http://scholar.google.com/scholar?cites=12822958035144353200&as_sdt=2005&sciodt=0,5&hl=en',
+      Citations list, 7]
+    url_pdf: [null, PDF link, 6]
+    url_versions: [null, Versions list, 8]
+    year: [!!python/unicode '2016', Year, 2]
+  citation_data: null
+- !!python/object:scholar.ScholarArticle
+  attrs:
+    cluster_id: ['16081073673799361643', Cluster ID, 5]
+    excerpt: [!!python/unicode 'Abstract: Video games are a compelling source of annotated
+        data as they can readily provide fine-grained groundtruth for diverse tasks.
+        However, it is not clear whether the synthetically generated data has enough
+        resemblance to the real-world images to  ...', Excerpt, 10]
+    num_citations: [1, Citations, 3]
+    num_versions: [0, Versions, 4]
+    title: [!!python/unicode 'Play and learn: using video Games to train computer
+        vision models', Title, 0]
+    url: ['http://arxiv.org/abs/1608.01745', URL, 1]
+    url_citation: [null, Citation link, 9]
+    url_citations: ['http://scholar.google.com/scholar?cites=16081073673799361643&as_sdt=2005&sciodt=0,5&hl=en',
+      Citations list, 7]
+    url_pdf: [null, PDF link, 6]
+    url_versions: [null, Versions list, 8]
+    year: [!!python/unicode '2016', Year, 2]
+  citation_data: null
+- !!python/object:scholar.ScholarArticle
+  attrs:
+    cluster_id: ['4101579648300742816', Cluster ID, 5]
+    excerpt: [!!python/unicode 'Abstract: The recent advances in deep neural networks
+        have led to effective vision-based reinforcement learning methods that have
+        been employed to obtain human-level controllers in Atari 2600 games from pixel
+        data. Atari 2600 games, however, do not resemble real- ...', Excerpt, 10]
+    num_citations: [4, Citations, 3]
+    num_versions: [3, Versions, 4]
+    title: [!!python/unicode 'ViZDoom: A Doom-based AI Research Platform for Visual
+        Reinforcement Learning', Title, 0]
+    url: ['http://arxiv.org/abs/1605.02097', URL, 1]
+    url_citation: [null, Citation link, 9]
+    url_citations: ['http://scholar.google.com/scholar?cites=4101579648300742816&as_sdt=2005&sciodt=0,5&hl=en',
+      Citations list, 7]
+    url_pdf: [null, PDF link, 6]
+    url_versions: ['http://scholar.google.com/scholar?cluster=4101579648300742816&hl=en&as_sdt=0,5',
+      Versions list, 8]
+    year: [!!python/unicode '2016', Year, 2]
+  citation_data: null
+- !!python/object:scholar.ScholarArticle
+  attrs:
+    cluster_id: ['5989950372336055491', Cluster ID, 5]
+    excerpt: [!!python/unicode 'Abstract: We have created a dataset of more than ten
+        thousand 3D scans of real objects. To create the dataset, we recruited 70
+        operators, equipped them with consumer-grade mobile 3D scanning setups, and
+        paid them to scan objects in their environments. The operators  ...', Excerpt,
+      10]
+    num_citations: [6, Citations, 3]
+    num_versions: [6, Versions, 4]
+    title: [!!python/unicode 'A large dataset of object scans', Title, 0]
+    url: ['http://arxiv.org/abs/1602.02481', URL, 1]
+    url_citation: [null, Citation link, 9]
+    url_citations: ['http://scholar.google.com/scholar?cites=5989950372336055491&as_sdt=2005&sciodt=0,5&hl=en',
+      Citations list, 7]
+    url_pdf: [null, PDF link, 6]
+    url_versions: ['http://scholar.google.com/scholar?cluster=5989950372336055491&hl=en&as_sdt=0,5',
+      Versions list, 8]
+    year: [!!python/unicode '2016', Year, 2]
+  citation_data: null
+- !!python/object:scholar.ScholarArticle
+  attrs:
+    cluster_id: ['16431759299155441580', Cluster ID, 5]
+    excerpt: [!!python/unicode 'Abstract: Recent work has shown that optical flow
+        estimation can be formulated as a supervised learning task and can be successfully
+        solved with convolutional networks. Training of the so-called FlowNet was
+        enabled by a large synthetically generated dataset.  ...', Excerpt, 10]
+    num_citations: [9, Citations, 3]
+    num_versions: [13, Versions, 4]
+    title: [!!python/unicode 'A Large Dataset to Train Convolutional Networks for
+        Disparity, Optical Flow, and Scene Flow Estimation', Title, 0]
+    url: ['http://arxiv.org/abs/1512.02134', URL, 1]
+    url_citation: [null, Citation link, 9]
+    url_citations: ['http://scholar.google.com/scholar?cites=16431759299155441580&as_sdt=2005&sciodt=0,5&hl=en',
+      Citations list, 7]
+    url_pdf: [null, PDF link, 6]
+    url_versions: ['http://scholar.google.com/scholar?cluster=16431759299155441580&hl=en&as_sdt=0,5',
+      Versions list, 8]
+    year: [!!python/unicode '2015', Year, 2]
+  citation_data: null
+- !!python/object:scholar.ScholarArticle
+  attrs:
+    cluster_id: ['1209553997502402606', Cluster ID, 5]
+    excerpt: [!!python/unicode 'Abstract Object viewpoint estimation from 2D images
+        is an essential task in computer vision. However, two issues hinder its progress:
+        scarcity of training data with viewpoint annotations, and a lack of powerful
+        features. Inspired by the growing availability of 3D models, we  ...', Excerpt,
+      10]
+    num_citations: [33, Citations, 3]
+    num_versions: [7, Versions, 4]
+    title: [!!python/unicode 'Render for cnn: Viewpoint estimation in images using
+        cnns trained with rendered 3d model views', Title, 0]
+    url: ['http://www.cv-foundation.org/openaccess/content_iccv_2015/html/Su_Render_for_CNN_ICCV_2015_paper.html',
+      URL, 1]
+    url_citation: [null, Citation link, 9]
+    url_citations: ['http://scholar.google.com/scholar?cites=1209553997502402606&as_sdt=2005&sciodt=0,5&hl=en',
+      Citations list, 7]
+    url_pdf: [null, PDF link, 6]
+    url_versions: ['http://scholar.google.com/scholar?cluster=1209553997502402606&hl=en&as_sdt=0,5',
+      Versions list, 8]
+    year: [!!python/unicode '2015', Year, 2]
+  citation_data: null
+- !!python/object:scholar.ScholarArticle
+  attrs:
+    cluster_id: ['1341601736562194564', Cluster ID, 5]
+    excerpt: [!!python/unicode 'Abstract: We present ShapeNet: a richly-annotated,
+        large-scale repository of shapes represented by 3D CAD models of objects.
+        ShapeNet contains 3D models from a multitude of semantic categories and organizes
+        them under the WordNet taxonomy. It is a collection  ...', Excerpt, 10]
+    num_citations: [27, Citations, 3]
+    num_versions: [8, Versions, 4]
+    title: [!!python/unicode 'Shapenet: An information-rich 3d model repository',
+      Title, 0]
+    url: ['http://arxiv.org/abs/1512.03012', URL, 1]
+    url_citation: [null, Citation link, 9]
+    url_citations: ['http://scholar.google.com/scholar?cites=1341601736562194564&as_sdt=2005&sciodt=0,5&hl=en',
+      Citations list, 7]
+    url_pdf: [null, PDF link, 6]
+    url_versions: ['http://scholar.google.com/scholar?cluster=1341601736562194564&hl=en&as_sdt=0,5',
+      Versions list, 8]
+    year: [!!python/unicode '2015', Year, 2]
+  citation_data: null
+- !!python/object:scholar.ScholarArticle
+  attrs:
+    cluster_id: ['2637402509859183337', Cluster ID, 5]
+    excerpt: ["Abstract\u2014Pedestrian detection is of paramount interest for many\
+        \ applications. Most promising detectors rely on discriminatively learnt classifiers,\
+        \ ie, trained with annotated samples. However, the annotation step is a human\
+        \ intensive and subjective task worth to  ...", Excerpt, 10]
+    num_citations: [46, Citations, 3]
+    num_versions: [12, Versions, 4]
+    title: [!!python/unicode 'Virtual and real world adaptation for pedestrian detection',
+      Title, 0]
+    url: ['http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6587038', URL, 1]
+    url_citation: [null, Citation link, 9]
+    url_citations: ['http://scholar.google.com/scholar?cites=2637402509859183337&as_sdt=2005&sciodt=0,5&hl=en',
+      Citations list, 7]
+    url_pdf: [null, PDF link, 6]
+    url_versions: ['http://scholar.google.com/scholar?cluster=2637402509859183337&hl=en&as_sdt=0,5',
+      Versions list, 8]
+    year: [!!python/unicode '2014', Year, 2]
+  citation_data: null
+- !!python/object:scholar.ScholarArticle
+  attrs:
+    cluster_id: ['18030645502969108287', Cluster ID, 5]
+    excerpt: [!!python/unicode 'Abstract This paper poses object category detection
+        in images as a type of 2D-to-3D alignment problem, utilizing the large quantities
+        of 3D CAD models that have been made publicly available online. Using the"
+        chair" class as a running example, we propose an  ...', Excerpt, 10]
+    num_citations: [110, Citations, 3]
+    num_versions: [21, Versions, 4]
+    title: [!!python/unicode 'Seeing 3d chairs: exemplar part-based 2d-3d alignment
+        using a large dataset of cad models', Title, 0]
+    url: ['http://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Aubry_Seeing_3D_Chairs_2014_CVPR_paper.html',
+      URL, 1]
+    url_citation: [null, Citation link, 9]
+    url_citations: ['http://scholar.google.com/scholar?cites=18030645502969108287&as_sdt=2005&sciodt=0,5&hl=en',
+      Citations list, 7]
+    url_pdf: [null, PDF link, 6]
+    url_versions: ['http://scholar.google.com/scholar?cluster=18030645502969108287&hl=en&as_sdt=0,5',
+      Versions list, 8]
+    year: [!!python/unicode '2014', Year, 2]
+  citation_data: null
+- !!python/object:scholar.ScholarArticle
+  attrs:
+    cluster_id: ['6595507135181144034', Cluster ID, 5]
+    excerpt: ["Abstract\u2014Geometric 3D reasoning at the level of objects has received\
+        \ renewed attention recently in the context of visual scene understanding.\
+        \ The level of geometric detail, however, is typically limited to qualitative\
+        \ representations or coarse boxes. This is linked to the fact  ...", Excerpt,
+      10]
+    num_citations: [67, Citations, 3]
+    num_versions: [13, Versions, 4]
+    title: [!!python/unicode 'Detailed 3d representations for object recognition and
+        modeling', Title, 0]
+    url: ['http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6516504', URL, 1]
+    url_citation: [null, Citation link, 9]
+    url_citations: ['http://scholar.google.com/scholar?cites=6595507135181144034&as_sdt=2005&sciodt=0,5&hl=en',
+      Citations list, 7]
+    url_pdf: [null, PDF link, 6]
+    url_versions: ['http://scholar.google.com/scholar?cluster=6595507135181144034&hl=en&as_sdt=0,5',
+      Versions list, 8]
+    year: [!!python/unicode '2013', Year, 2]
+  citation_data: null
+- !!python/object:scholar.ScholarArticle
+  attrs:
+    cluster_id: ['15124407213489971559', Cluster ID, 5]
+    excerpt: [!!python/unicode 'Abstract Ground truth optical flow is difficult to
+        measure in real scenes with natural motion. As a result, optical flow data
+        sets are restricted in terms of size, complexity, and diversity, making optical
+        flow algorithms difficult to train and test on realistic data. We introduce
+        a  ...', Excerpt, 10]
+    num_citations: [227, Citations, 3]
+    num_versions: [0, Versions, 4]
+    title: [!!python/unicode 'A naturalistic open source movie for optical flow evaluation',
+      Title, 0]
+    url: ['http://link.springer.com/chapter/10.1007/978-3-642-33783-3_44', URL, 1]
+    url_citation: [null, Citation link, 9]
+    url_citations: ['http://scholar.google.com/scholar?cites=15124407213489971559&as_sdt=20000005&sciodt=0,21&hl=en',
+      Citations list, 7]
+    url_pdf: [null, PDF link, 6]
+    url_versions: [null, Versions list, 8]
+    year: [!!python/unicode '2012', Year, 2]
+  citation_data: null
+- !!python/object:scholar.ScholarArticle
+  attrs:
+    cluster_id: ['3459961090644684583', Cluster ID, 5]
+    excerpt: [!!python/unicode 'Abstract ObjectVideo Virtual Video (OVVV) is a publicly
+        available visual surveillance simulation test bed based on a commercial game
+        engine. The tool simulates multiple synchronized video streams from a variety
+        of camera configurations, including static, PTZ  ...', Excerpt, 10]
+    num_citations: [58, Citations, 3]
+    num_versions: [4, Versions, 4]
+    title: [!!python/unicode 'Ovvv: Using virtual worlds to design and evaluate surveillance
+        systems', Title, 0]
+    url: ['http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4270516', URL, 1]
+    url_citation: [null, Citation link, 9]
+    url_citations: ['http://scholar.google.com/scholar?cites=3459961090644684583&as_sdt=2005&sciodt=0,5&hl=en',
+      Citations list, 7]
+    url_pdf: [null, PDF link, 6]
+    url_versions: ['http://scholar.google.com/scholar?cluster=3459961090644684583&hl=en&as_sdt=0,5',
+      Versions list, 8]
+    year: [!!python/unicode '2007', Year, 2]
+  citation_data: null
+- !!python/object:scholar.ScholarArticle
+  attrs:
+    cluster_id: [null, Cluster ID, 5]
+    excerpt: [!!python/unicode 'Abstract: Computer graphics can not only generate
+        synthetic images and ground truth but it also offers the possibility of constructing
+        virtual worlds in which:(i) an agent can perceive, navigate, and take actions
+        guided by AI algorithms,(ii) properties of the worlds can be  ...', Excerpt,
+      10]
+    num_citations: [0, Citations, 3]
+    num_versions: [0, Versions, 4]
+    title: [!!python/unicode 'UnrealCV: Connecting Computer Vision to Unreal Engine',
+      Title, 0]
+    url: ['http://arxiv.org/abs/1609.01326', URL, 1]
+    url_citation: [null, Citation link, 9]
+    url_citations: [null, Citations list, 7]
+    url_pdf: [null, PDF link, 6]
+    url_versions: [null, Versions list, 8]
+    year: [!!python/unicode '2016', Year, 2]
+  citation_data: null
+- !!python/object:scholar.ScholarArticle
+  attrs:
+    cluster_id: ['12846348306706460250', Cluster ID, 5]
+    excerpt: [!!python/unicode 'Abstract: Wooden blocks are a common toy for infants,
+        allowing them to develop motor skills and gain intuition about the physical
+        behavior of the world. In this paper, we explore the ability of deep feed-forward
+        models to learn such intuitive physics. Using a 3D game  ...', Excerpt, 10]
+    num_citations: [12, Citations, 3]
+    num_versions: [2, Versions, 4]
+    title: [!!python/unicode 'Learning Physical Intuition of Block Towers by Example',
+      Title, 0]
+    url: ['http://arxiv.org/abs/1603.01312', URL, 1]
+    url_citation: [null, Citation link, 9]
+    url_citations: ['http://scholar.google.com/scholar?cites=12846348306706460250&as_sdt=2005&sciodt=0,5&hl=en',
+      Citations list, 7]
+    url_pdf: [null, PDF link, 6]
+    url_versions: ['http://scholar.google.com/scholar?cluster=12846348306706460250&hl=en&as_sdt=0,5',
+      Versions list, 8]
+    year: [!!python/unicode '2016', Year, 2]
+  citation_data: null
+- !!python/object:scholar.ScholarArticle
+  attrs:
+    cluster_id: [null, Cluster ID, 5]
+    excerpt: [!!python/unicode 'Abstract: Two less addressed issues of deep reinforcement
+        learning are (1) lack of generalization capability to new target goals, and
+        (2) data inefficiency ie, the model requires several (and often costly) episodes
+        of trial and error to converge, which makes it  ...', Excerpt, 10]
+    num_citations: [0, Citations, 3]
+    num_versions: [0, Versions, 4]
+    title: [!!python/unicode 'Target-driven Visual Navigation in Indoor Scenes using
+        Deep Reinforcement Learning', Title, 0]
+    url: ['http://arxiv.org/abs/1609.05143', URL, 1]
+    url_citation: [null, Citation link, 9]
+    url_citations: [null, Citations list, 7]
+    url_pdf: [null, PDF link, 6]
+    url_versions: [null, Versions list, 8]
+    year: [!!python/unicode '2016', Year, 2]
+  citation_data: null

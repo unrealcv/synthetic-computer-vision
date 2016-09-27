@@ -1,6 +1,8 @@
 # Use scholar.py to format table
-import sys, yaml, pickle, os, time, datetime, argparse
+import sys, yaml, pickle, os, time, datetime
 import bibtexparser
+cur_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(cur_dir)
 import scholarutil
 
 def format_scholar_data(scholar_data):
@@ -14,16 +16,19 @@ def format_scholar_data(scholar_data):
 
 def format_as_md_row(paper):
     template = [
-        # if exist, use 1, if not use '' or 2
-        ('', '- ', ''),
-        ('ID', '<div id="{ID}"/>', ''),
-        ('author', '[{first_author}, et al.](# "{author}"),', ''), # Hover to see tooltip
-        ('url', '"[{title}]({url})"', '"{title}"'),
+        # if k exist, use t1, if not exist use t2
+        # (k, t1, t2)
+        ('',          '- ', ''),
+        ('ID',        '<div id="{ID}"/>', ''),
+        ('author',    '[{first_author}, et al.](# "{author}"),', ''), # Hover to see tooltip
+        # ('url',       '"[{title}]({url})"', '"{title}"'),
+        ('title',     '{title}', 'missing title'),
         ('booktitle', '{booktitle}', ''),
-        ('year', '{year}', ''),
-        ('', '\n\n\t', ''),
-        ('code', '([code]({code}))', ''),
-        ('project', '([project]({project}))', ''),
+        ('year',      '{year}', ''),
+        ('',          '\n\n\t', ''),
+        ('code',      '([code]({code}))', ''),
+        ('url',       '([pdf]({url}))', ''),
+        ('project',   '([project]({project}))', ''),
         ('num_citations', '([citation:{num_citations}]({url_citations}))', '')
     ]
 
@@ -51,10 +56,10 @@ def format_by_year(papers):
     for year in years:
         rows = [format_as_md_row(paper) for paper in papers if int(paper['year']) == year]
         section_head = '## %d \n(Total=%d)' % (year, len(rows))
-        sections.append('\n'.join([section_head] + rows))
+        sections.append('\n\n'.join([section_head] + rows))
 
-    content = '\n\n'.join(sections)
-    print content
+    content = '\n'.join(sections)
+    # print content
     return content
 
 def load_paper_list(paper_list_file):
@@ -62,31 +67,33 @@ def load_paper_list(paper_list_file):
         paper_list = yaml.load(f)
     return paper_list
 
-def merge_data(paper_list, scholar_data):
+def merge_data(paper_list, scholar_data_list):
     # Merge yml data with google scholar data
-    assert(len(paper_list) == len(scholar_data))
+    assert(len(paper_list) == len(scholar_data_list))
     papers = []
-    for v in range(len(paper_list)):
+    for yaml_paper_info, scholar_data in zip(paper_list, scholar_data_list):
         paper = dict()
-        # paper = paper_list[v]
 
-        meta = scholar_data[v]
         # see __getitem__ of ScholarArticle
-        attrs = dict([(key, meta.attrs[key][0]) for key in meta.attrs.keys()])
+        attrs = dict([(key, scholar_data.attrs[key][0]) for key in scholar_data.attrs.keys()])
         paper.update(attrs)
-        paper['citation_data'] = meta.citation_data
 
-        bibdata = bibtexparser.loads(meta.citation_data)
-        bibinfo = bibdata.entries[0]
-        paper.update(bibdata.entries[0])
+        if scholar_data.citation_data:
+            paper['citation_data'] = scholar_data.citation_data
+            print 'citation data %s' % scholar_data.citation_data
+            bibdata = bibtexparser.loads(scholar_data.citation_data)
+            bibinfo = bibdata.entries[0]
+            paper.update(bibdata.entries[0])
+        else:
+            print 'Warning: %s does not have citation_data' % yaml_paper_info['title']
 
-        paper.update(paper_list[v])
+        paper.update(yaml_paper_info)
         # This should have the highest priority and overwrite others
 
-        if len(papers) == 0:
-            # Only do it once
-            print 'Scholar data field %s' % attrs.keys()
-            print 'Bib data fields %s' % bibinfo.keys()
+        # if len(papers) == 0:
+        #     # Only do it once
+        #     print 'Scholar data field %s' % attrs.keys()
+        #     print 'Bib data fields %s' % bibinfo.keys()
 
         if paper.get('author'):
             paper['first_author'] = paper['author'].split('and')[0].strip()
@@ -107,7 +114,7 @@ def main():
     paper_list = load_paper_list(paper_list_file)
 
     scholar_data = scholarutil.get_scholar_data(paper_list)
-    format_scholar_data(scholar_data)
+    # format_scholar_data(scholar_data)
 
     papers = merge_data(paper_list, scholar_data)
 
@@ -122,10 +129,9 @@ def main():
         template = f.read()
         readme = template.format(reference = reference, date = date)
 
-    with open('../README.md', 'w') as f:
+    with open('README.md', 'w') as f:
         f.write(readme)
     # format_scholar_data(scholar_data)
-
 
 if __name__ == '__main__':
     main()

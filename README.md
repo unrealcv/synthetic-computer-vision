@@ -55,6 +55,8 @@ Synthetic image dataset. Information includes, number of images, task, project l
 [github](https://github.com/facebook/UETorch)
 <iframe src="http://ghbtns.com/github-btn.html?user=facebook&repo=UETorch&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
 - UnrealCV [github](http://unrealcv.github.io)
+- RealismCNN [github](https://github.com/junyanz/RealismCNN)
+- Abnormality Detection in Images(http://paul.rutgers.edu/~babaks/abnormality_detection.html)
 
 # Related topics
 ## Domain Transfer
@@ -70,7 +72,9 @@ Information is retrieved from google scholar. Send [me](qiuwch@gmail.com) an ema
 Only the first author is shown in the text. Hover on the author name to see the complete author list.
 
 ## 2016 
-(Total=8)
+(Total=9)
+- Target-driven Visual Navigation in Indoor Scenes using Deep Reinforcement Learning
+
 - <div id="ros2016synthia"/> [Ros, German, et al.](# "Ros, German and Sellart, Laura and Materzynska, Joanna and Vazquez, David and Lopez, Antonio M"), "[The SYNTHIA dataset: A large collection of synthetic images for semantic segmentation of urban scenes.](http://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Ros_The_SYNTHIA_Dataset_CVPR_2016_paper.html)" Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition 2016 
 
 	 ([project](http://synthia-dataset.net/)) ([citation:3](http://scholar.google.com/scholar?cites=9178628328030932213&as_sdt=2005&sciodt=0,5&hl=en)) 
