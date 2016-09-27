@@ -1,5 +1,6 @@
-import sys, pickle, os
-sys.path.append('scholar_py')
+import sys, pickle, os, time
+cur_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(os.path.join(cur_dir, 'scholar_py'))
 import scholar
 
 cache_file = 'papers.pkl'

@@ -1,0 +1,3 @@
+pyyaml
+bibtexparser
+beautifulsoup
