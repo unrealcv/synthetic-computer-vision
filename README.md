@@ -27,7 +27,7 @@ Realistic 3D models are critical for creating realistic and diverse virtual worl
 | 3dscan         | [ArXiv](#choi2016large)      |
 | seeing3Dchairs | [CVPR2014](#aubry2014seeing) |
 
-# 3. Tools
+## 3. Tools
 
 | Name           | Platform             | Publication                    |
 |:---------------|:---------------------|:-------------------------------|
@@ -36,17 +36,9 @@ Realistic 3D models are critical for creating realistic and diverse virtual worl
 | UnrealCV       | UE4                  | [ArXiv](#qiu2016unrealcv)      |
 | VizDoom        | Doom                 | [ArXiv](#kempka2016vizdoom)    |
 
-## Project page
-- Render for CNN
-[github](https://github.com/shapenet/RenderForCNN)
-<iframe src="http://ghbtns.com/github-btn.html?user=shapenet&repo=RenderForCNN&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
-- ViZDoom
-[github](https://github.com/Marqt/ViZDoom)
-<iframe src="http://ghbtns.com/github-btn.html?user=Marqt&repo=ViZDoom&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
-- UETorch
-[github](https://github.com/facebook/UETorch)
-<iframe src="http://ghbtns.com/github-btn.html?user=facebook&repo=UETorch&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
-- UnrealCV [github](http://unrealcv.github.io)
+## Resources
+
+ECCV 2016 Virtual/Augmented Reality for Visual Artificial Intelligence (VARVAI) workshop [link](http://adas.cvc.uab.es/varvai2016/)
 
 ## Misc.
 - RealismCNN [github](https://github.com/junyanz/RealismCNN)
