@@ -2,6 +2,8 @@
 
 A list of synthetic dataset for computer vision. This is a repo for tracking the progress of using synthetic images for computer vision research.
 
+If you found any important work is missing, please edit this file directly and make a pull request.
+
 See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synthetic
 
 # 1. Image dataset
