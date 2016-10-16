@@ -16,12 +16,6 @@ Click publication to jump to the paper title, detailed information such as code 
 | Sintel        | [ECCV2012](#butler2012naturalistic) |
 | SceneFlow     | [CVPR2016](#mayer2015large)         |
 
-## Project page
-
-- [Virtual KITTI](http://www.xrce.xerox.com/Research-Development/Computer-Vision/Proxy-Virtual-Worlds)
-- [Synthetia dataset](http://synthia-dataset.net/)
-- [Sintel dataset](http://sintel.is.tue.mpg.de/)
-
 # 2. 3D Model Repository
 
 | Name           | Publication                  |
@@ -77,45 +71,39 @@ div id is the bib citekey from google scholar, use the div id makes it easier to
 
 ## 2016
 (Total=10)
-- ResearchDoom and CocoDoom: Learning Computer Vision with Games. 2016
+- ResearchDoom and CocoDoom: Learning Computer Vision with Games. 2016   
 	([pdf](https://arxiv.org/pdf/1610.02431.pdf))
 	([project](www.robots.ox.ac.uk/~vgg/research/researchdoom/))
 
 <div id="ros2016synthia"></div>
 -   The SYNTHIA dataset: A large collection of synthetic images for semantic segmentation of urban scenes.  2016
-
 	 ([pdf](http://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Ros_The_SYNTHIA_Dataset_CVPR_2016_paper.html)) ([project](http://synthia-dataset.net/)) ([citation:4](http://scholar.google.com/scholar?cites=9178628328030932213&as_sdt=2005&sciodt=0,5&hl=en))
 
 <div id="gaidon2016virtual"></div>
--   Virtual Worlds as Proxy for Multi-Object Tracking Analysis.  2016
-
+-   Virtual Worlds as Proxy for Multi-Object Tracking Analysis.  2016   
 	 ([pdf](http://arxiv.org/abs/1605.06457)) ([project](http://www.xrce.xerox.com/Research-Development/Computer-Vision/Proxy-Virtual-Worlds)) ([citation:5](http://scholar.google.com/scholar?cites=11727455440906017188&as_sdt=2005&sciodt=0,5&hl=en))
 
--   Playing for data: Ground truth from computer games.  2016
+-   Playing for data: Ground truth from computer games.  2016   
 	 ([pdf](http://link.springer.com/chapter/10.1007/978-3-319-46475-6_7))  ([citation:1](http://scholar.google.com/scholar?cites=12822958035144353200&as_sdt=2005&sciodt=0,5&hl=en))
 
--   Play and Learn: Using Video Games to Train Computer Vision Models.  2016
+-   Play and Learn: Using Video Games to Train Computer Vision Models.  2016   
 	 ([pdf](http://arxiv.org/abs/1608.01745))  ([citation:1](http://scholar.google.com/scholar?cites=16081073673799361643&as_sdt=2005&sciodt=0,5&hl=en))
 
--   ViZDoom: A Doom-based AI Research Platform for Visual Reinforcement Learning.  2016
-
+-   ViZDoom: A Doom-based AI Research Platform for Visual Reinforcement Learning.  2016    
 	([code](https://github.com/Marqt/ViZDoom)) ([pdf](http://arxiv.org/abs/1605.02097)) ([project](http://vizdoom.cs.put.edu.pl/)) ([citation:4](http://scholar.google.com/scholar?cites=4101579648300742816&as_sdt=2005&sciodt=0,5&hl=en))
 
--   A large dataset of object scans.  2016
-
+-   A large dataset of object scans.  2016   
 	 ([pdf](http://arxiv.org/abs/1602.02481)) ([project](http://redwood-data.org/3dscan/)) ([citation:6](http://scholar.google.com/scholar?cites=5989950372336055491&as_sdt=2005&sciodt=0,5&hl=en))
 
--   UnrealCV: Connecting Computer Vision to Unreal Engine  2016
-
+-   UnrealCV: Connecting Computer Vision to Unreal Engine  2016    
 	([code](http://unrealcv.github.io)) ([pdf](http://arxiv.org/abs/1609.01326))   
 
--   Learning Physical Intuition of Block Towers by Example  2016
-
+-   Learning Physical Intuition of Block Towers by Example  2016   
 	([code](https://github.com/facebook/UETorch)) ([pdf](http://arxiv.org/abs/1603.01312))  ([citation:12](http://scholar.google.com/scholar?cites=12846348306706460250&as_sdt=2005&sciodt=0,5&hl=en))
 
--   Target-driven Visual Navigation in Indoor Scenes using Deep Reinforcement Learning  2016
-
+-   Target-driven Visual Navigation in Indoor Scenes using Deep Reinforcement Learning  2016   
 	 ([pdf](http://arxiv.org/abs/1609.05143))   
+
 ## 2015
 (Total=3)
 
@@ -130,6 +118,7 @@ div id is the bib citekey from google scholar, use the div id makes it easier to
 -   Shapenet: An information-rich 3d model repository.  2015
 
 	 ([pdf](http://arxiv.org/abs/1512.03012)) ([project](http://shapenet.cs.stanford.edu/)) ([citation:27](http://scholar.google.com/scholar?cites=1341601736562194564&as_sdt=2005&sciodt=0,5&hl=en))
+
 ## 2014
 (Total=2)
 
@@ -149,9 +138,10 @@ div id is the bib citekey from google scholar, use the div id makes it easier to
 ## 2012
 (Total=1)
 
+<div id="butler2012naturalistic"></div>
 -   A naturalistic open source movie for optical flow evaluation.  2012
-
 	 ([pdf](http://link.springer.com/chapter/10.1007/978-3-642-33783-3_44)) ([project](http://sintel.is.tue.mpg.de/)) ([citation:227](http://scholar.google.com/scholar?cites=15124407213489971559&as_sdt=20000005&sciodt=0,21&hl=en))
+
 ## 2010
 (Total=1)
 
