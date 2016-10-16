@@ -51,13 +51,11 @@ ECCV 2016 Virtual/Augmented Reality for Visual Artificial Intelligence (VARVAI) 
 
 # Reference
 
-This reference list is generated automatically using script `gen-reference.py` in this repo. The script uses the awesome [scholar.py](https://github.com/ckreibich/scholar.py) library.
-
-Information is retrieved from google scholar. Send [me](qiuwch@gmail.com) an email if you spot any mistake. Citation information is from google scholar by the date: 09/27/16 as an indicator of impact. It is also helpful to discover related works.
+This reference list is generated automatically using script `gen-reference.py` in this repo. The script uses the awesome [scholar.py](https://github.com/ckreibich/scholar.py) library. Information is retrieved from google scholar. Send [me](qiuwch@gmail.com) an email if you spot any mistake. Citation information is from google scholar by the date: 09/27/16 It is used as an indicator of impact and also helpful to discover related works.
 
 ~~Only the first author is shown in the text. Hover on the author name to see the complete author list.~~ author information is missing due to some error of google scholar API, I need to manually add them.
 
-div id is the bib citekey from google scholar, use the div id makes it easier to reference a work in this document.
+If you want to edit this README file. The div id is bib citekey from google scholar, use div id makes it easier to reference a work in this document.
 
 ## 2016
 (Total=10)
