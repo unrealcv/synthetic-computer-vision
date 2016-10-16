@@ -2,19 +2,19 @@
 
 A list of synthetic dataset for computer vision. This is a repo for tracking the progress of using synthetic images for computer vision research.
 
-If you found any important work is missing, please edit this file directly and make a pull request.
+If you found any important work is missing or information is not up-to-date, please edit this file directly and make a pull request.
 
 See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synthetic
 
 # 1. Image dataset
 Synthetic image dataset. Information includes, number of images, task, project link (click project title) .
 
-| Name          | Task         | Ground Truth | Publication                         |
-|:--------------|:-------------|:-------------|:------------------------------------|
-| Virtual KITTI |              |              | [CVPR2016](#gaidon2016virtual)      |
-| Synthetia     |              |              | [CVPR2016](#ros2016synthia)         |
-| Sintel        | Optical Flow |              | [ECCV2012](#butler2012naturalistic) |
-| SceneFlow     |              |              | [CVPR2016](#mayer2015large)         |
+| Name          | Publication                         |
+|:--------------|:------------------------------------|
+| Virtual KITTI | [CVPR2016](#gaidon2016virtual)      |
+| Synthetia     | [CVPR2016](#ros2016synthia)         |
+| Sintel        | [ECCV2012](#butler2012naturalistic) |
+| SceneFlow     | [CVPR2016](#mayer2015large)         |
 
 ## Project page
 
@@ -24,11 +24,11 @@ Synthetic image dataset. Information includes, number of images, task, project l
 
 # 2. 3D Model Repository
 
-| Name           | No. Objects | No. Types | Format | Publication                  |
-|:---------------|:------------|:----------|:-------|:-----------------------------|
-| ShapeNet       |             |           |        |                              |
-| 3dscan         |             |           | PLY    | [ArXiv](#choi2016large)      |
-| seeing3Dchairs |             |           |        | [CVPR2014](#aubry2014seeing) |
+| Name           | Publication                  |
+|:---------------|:-----------------------------|
+| ShapeNet       |                              |
+| 3dscan         | [ArXiv](#choi2016large)      |
+| seeing3Dchairs | [CVPR2014](#aubry2014seeing) |
 
 ## Project page
 - [ShapeNet](http://shapenet.cs.stanford.edu/)
@@ -37,12 +37,12 @@ Synthetic image dataset. Information includes, number of images, task, project l
 
 # 3. Tools
 
-| Name           | Platform             |
-|:---------------|:---------------------|
-| Render for CNN | Blender              |
-| UETorch        | Unreal Engine 4(UE4) |
-| UnrealCV       | UE4                  |
-| VizDoom        | Doom                 |
+| Name           | Platform             | Publication |
+|:---------------|:---------------------|:------------|
+| Render for CNN | Blender              |             |
+| UETorch        | Unreal Engine 4(UE4) |             |
+| UnrealCV       | UE4                  |             |
+| VizDoom        | Doom                 |             |
 
 ## Project page
 - Render for CNN
@@ -71,7 +71,9 @@ This reference list is generated automatically using script `gen-reference.py` i
 
 Information is retrieved from google scholar. Send [me](qiuwch@gmail.com) an email if you spot any mistake. Citation information is from google scholar by the date: 09/27/16 as an indicator of impact. It is also helpful to discover related works.
 
-Only the first author is shown in the text. Hover on the author name to see the complete author list.
+~~Only the first author is shown in the text. Hover on the author name to see the complete author list.~~ author information is missing due to some error of google scholar API, I need to manually add them.
+
+div id is the bib citekey from google scholar, use the div id makes it easier to reference a work in this document.
 
 ## 2016
 (Total=10)
@@ -79,21 +81,20 @@ Only the first author is shown in the text. Hover on the author name to see the 
 	([pdf](https://arxiv.org/pdf/1610.02431.pdf))
 	([project](www.robots.ox.ac.uk/~vgg/research/researchdoom/))
 
-
+<div id="ros2016synthia"></div>
 -   The SYNTHIA dataset: A large collection of synthetic images for semantic segmentation of urban scenes.  2016
 
 	 ([pdf](http://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Ros_The_SYNTHIA_Dataset_CVPR_2016_paper.html)) ([project](http://synthia-dataset.net/)) ([citation:4](http://scholar.google.com/scholar?cites=9178628328030932213&as_sdt=2005&sciodt=0,5&hl=en))
 
+<div id="gaidon2016virtual"></div>
 -   Virtual Worlds as Proxy for Multi-Object Tracking Analysis.  2016
 
 	 ([pdf](http://arxiv.org/abs/1605.06457)) ([project](http://www.xrce.xerox.com/Research-Development/Computer-Vision/Proxy-Virtual-Worlds)) ([citation:5](http://scholar.google.com/scholar?cites=11727455440906017188&as_sdt=2005&sciodt=0,5&hl=en))
 
 -   Playing for data: Ground truth from computer games.  2016
-
 	 ([pdf](http://link.springer.com/chapter/10.1007/978-3-319-46475-6_7))  ([citation:1](http://scholar.google.com/scholar?cites=12822958035144353200&as_sdt=2005&sciodt=0,5&hl=en))
 
 -   Play and Learn: Using Video Games to Train Computer Vision Models.  2016
-
 	 ([pdf](http://arxiv.org/abs/1608.01745))  ([citation:1](http://scholar.google.com/scholar?cites=16081073673799361643&as_sdt=2005&sciodt=0,5&hl=en))
 
 -   ViZDoom: A Doom-based AI Research Platform for Visual Reinforcement Learning.  2016
