@@ -7,7 +7,7 @@ If you found any important work is missing or information is not up-to-date, ple
 See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synthetic
 
 # 1. Image dataset
-Synthetic image dataset. Information includes, number of images, task, project link (click project title) .
+Click publication to jump to the paper title, detailed information such as code and project page will be provided together with pdf file.
 
 | Name          | Publication                         |
 |:--------------|:------------------------------------|
