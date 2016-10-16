@@ -1,7 +1,5 @@
 # Synthetic for Computer Vision
 
-notice: this file is generated automatically from README_raw.md and paper_list.yml. Do not edit this directly.
-
 A list of synthetic dataset for computer vision. This is a repo for tracking the progress of using synthetic images for computer vision research.
 
 See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synthetic
