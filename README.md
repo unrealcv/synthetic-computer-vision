@@ -6,8 +6,9 @@ If you found any important work is missing or information is not up-to-date, ple
 
 See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synthetic
 
-# 1. Image dataset
-Click publication to jump to the paper title, detailed information such as code and project page will be provided together with pdf file.
+**Click publication to jump to the paper title, detailed information such as code and project page will be provided together with pdf file.**
+
+## 1. Image dataset
 
 | Name          | Publication                         |
 |:--------------|:------------------------------------|
@@ -16,27 +17,24 @@ Click publication to jump to the paper title, detailed information such as code 
 | Sintel        | [ECCV2012](#butler2012naturalistic) |
 | SceneFlow     | [CVPR2016](#mayer2015large)         |
 
-# 2. 3D Model Repository
+## 2. 3D Model Repository
+
+Realistic 3D models are critical for creating realistic and diverse virtual worlds. Here are research efforts for creating 3D model repositories.
 
 | Name           | Publication                  |
 |:---------------|:-----------------------------|
-| ShapeNet       |                              |
+| ShapeNet       | [ArXiv](#chang2015shapenet)  |
 | 3dscan         | [ArXiv](#choi2016large)      |
 | seeing3Dchairs | [CVPR2014](#aubry2014seeing) |
 
-## Project page
-- [ShapeNet](http://shapenet.cs.stanford.edu/)
-- [3dscan](http://redwood-data.org/3dscan/)
-- [seeing3Dchairs](http://www.di.ens.fr/willow/research/seeing3Dchairs/) [github](https://github.com/dimatura/seeing3d)
-
 # 3. Tools
 
-| Name           | Platform             | Publication |
-|:---------------|:---------------------|:------------|
-| Render for CNN | Blender              |             |
-| UETorch        | Unreal Engine 4(UE4) |             |
-| UnrealCV       | UE4                  |             |
-| VizDoom        | Doom                 |             |
+| Name           | Platform             | Publication                    |
+|:---------------|:---------------------|:-------------------------------|
+| Render for CNN | Blender              | [ICCV2015](#su2015render)      |
+| UETorch        | Unreal Engine 4(UE4) | [ICML2016](#lerer2016learning) |
+| UnrealCV       | UE4                  | [ArXiv](#qiu2016unrealcv)      |
+| VizDoom        | Doom                 | [ArXiv](#kempka2016vizdoom)    |
 
 ## Project page
 - Render for CNN
@@ -89,15 +87,19 @@ div id is the bib citekey from google scholar, use the div id makes it easier to
 -   Play and Learn: Using Video Games to Train Computer Vision Models.  2016   
 	 ([pdf](http://arxiv.org/abs/1608.01745))  ([citation:1](http://scholar.google.com/scholar?cites=16081073673799361643&as_sdt=2005&sciodt=0,5&hl=en))
 
+<div id=""></div>
 -   ViZDoom: A Doom-based AI Research Platform for Visual Reinforcement Learning.  2016    
 	([code](https://github.com/Marqt/ViZDoom)) ([pdf](http://arxiv.org/abs/1605.02097)) ([project](http://vizdoom.cs.put.edu.pl/)) ([citation:4](http://scholar.google.com/scholar?cites=4101579648300742816&as_sdt=2005&sciodt=0,5&hl=en))
 
+<div id="choi2016large"></div>
 -   A large dataset of object scans.  2016   
 	 ([pdf](http://arxiv.org/abs/1602.02481)) ([project](http://redwood-data.org/3dscan/)) ([citation:6](http://scholar.google.com/scholar?cites=5989950372336055491&as_sdt=2005&sciodt=0,5&hl=en))
 
+<div id="qiu2016unrealcv"></div>
 -   UnrealCV: Connecting Computer Vision to Unreal Engine  2016    
 	([code](http://unrealcv.github.io)) ([pdf](http://arxiv.org/abs/1609.01326))   
 
+<div id="lerer2016learning"></div>
 -   Learning Physical Intuition of Block Towers by Example  2016   
 	([code](https://github.com/facebook/UETorch)) ([pdf](http://arxiv.org/abs/1603.01312))  ([citation:12](http://scholar.google.com/scholar?cites=12846348306706460250&as_sdt=2005&sciodt=0,5&hl=en))
 
@@ -110,9 +112,11 @@ div id is the bib citekey from google scholar, use the div id makes it easier to
 -   A Large Dataset to Train Convolutional Networks for Disparity, Optical Flow, and Scene Flow Estimation.  2015    
 	 ([pdf](http://arxiv.org/abs/1512.02134))  ([citation:9](http://scholar.google.com/scholar?cites=16431759299155441580&as_sdt=2005&sciodt=0,5&hl=en))
 
+<div id="su2015render"></div>
 -   Render for cnn: Viewpoint estimation in images using cnns trained with rendered 3d model views.  2015   
 	([code](https://github.com/ShapeNet/RenderForCNN)) ([pdf](http://www.cv-foundation.org/openaccess/content_iccv_2015/html/Su_Render_for_CNN_ICCV_2015_paper.html))  ([citation:33](http://scholar.google.com/scholar?cites=1209553997502402606&as_sdt=2005&sciodt=0,5&hl=en))
 
+<div id="chang2015shapenet"></div>
 -   Shapenet: An information-rich 3d model repository.  2015    
 	 ([pdf](http://arxiv.org/abs/1512.03012)) ([project](http://shapenet.cs.stanford.edu/)) ([citation:27](http://scholar.google.com/scholar?cites=1341601736562194564&as_sdt=2005&sciodt=0,5&hl=en))
 
@@ -122,6 +126,7 @@ div id is the bib citekey from google scholar, use the div id makes it easier to
 -   Virtual and real world adaptation for pedestrian detection.  2014    
 	 ([pdf](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6587038))  ([citation:46](http://scholar.google.com/scholar?cites=2637402509859183337&as_sdt=2005&sciodt=0,5&hl=en))
 
+<div id="aubry2014seeing"></div>
 -   Seeing 3d chairs: exemplar part-based 2d-3d alignment using a large dataset of cad models.  2014   
 	([code](https://github.com/dimatura/seeing3d)) ([pdf](http://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Aubry_Seeing_3D_Chairs_2014_CVPR_paper.html)) ([project](http://www.di.ens.fr/willow/research/seeing3Dchairs/)) ([citation:110](http://scholar.google.com/scholar?cites=18030645502969108287&as_sdt=2005&sciodt=0,5&hl=en))
 
