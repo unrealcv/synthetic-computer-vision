@@ -107,50 +107,45 @@ div id is the bib citekey from google scholar, use the div id makes it easier to
 ## 2015
 (Total=3)
 
--   A Large Dataset to Train Convolutional Networks for Disparity, Optical Flow, and Scene Flow Estimation.  2015
-
+-   A Large Dataset to Train Convolutional Networks for Disparity, Optical Flow, and Scene Flow Estimation.  2015    
 	 ([pdf](http://arxiv.org/abs/1512.02134))  ([citation:9](http://scholar.google.com/scholar?cites=16431759299155441580&as_sdt=2005&sciodt=0,5&hl=en))
 
--   Render for cnn: Viewpoint estimation in images using cnns trained with rendered 3d model views.  2015
-
+-   Render for cnn: Viewpoint estimation in images using cnns trained with rendered 3d model views.  2015   
 	([code](https://github.com/ShapeNet/RenderForCNN)) ([pdf](http://www.cv-foundation.org/openaccess/content_iccv_2015/html/Su_Render_for_CNN_ICCV_2015_paper.html))  ([citation:33](http://scholar.google.com/scholar?cites=1209553997502402606&as_sdt=2005&sciodt=0,5&hl=en))
 
--   Shapenet: An information-rich 3d model repository.  2015
-
+-   Shapenet: An information-rich 3d model repository.  2015    
 	 ([pdf](http://arxiv.org/abs/1512.03012)) ([project](http://shapenet.cs.stanford.edu/)) ([citation:27](http://scholar.google.com/scholar?cites=1341601736562194564&as_sdt=2005&sciodt=0,5&hl=en))
 
 ## 2014
 (Total=2)
 
--   Virtual and real world adaptation for pedestrian detection.  2014
-
+-   Virtual and real world adaptation for pedestrian detection.  2014    
 	 ([pdf](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6587038))  ([citation:46](http://scholar.google.com/scholar?cites=2637402509859183337&as_sdt=2005&sciodt=0,5&hl=en))
 
--   Seeing 3d chairs: exemplar part-based 2d-3d alignment using a large dataset of cad models.  2014
-
+-   Seeing 3d chairs: exemplar part-based 2d-3d alignment using a large dataset of cad models.  2014   
 	([code](https://github.com/dimatura/seeing3d)) ([pdf](http://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Aubry_Seeing_3D_Chairs_2014_CVPR_paper.html)) ([project](http://www.di.ens.fr/willow/research/seeing3Dchairs/)) ([citation:110](http://scholar.google.com/scholar?cites=18030645502969108287&as_sdt=2005&sciodt=0,5&hl=en))
+
 ## 2013
 (Total=1)
 
--   Detailed 3d representations for object recognition and modeling.  2013
-
+-   Detailed 3d representations for object recognition and modeling.  2013   
 	 ([pdf](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6516504))  ([citation:67](http://scholar.google.com/scholar?cites=6595507135181144034&as_sdt=2005&sciodt=0,5&hl=en))
+
 ## 2012
 (Total=1)
 
 <div id="butler2012naturalistic"></div>
--   A naturalistic open source movie for optical flow evaluation.  2012
+-   A naturalistic open source movie for optical flow evaluation.  2012    
 	 ([pdf](http://link.springer.com/chapter/10.1007/978-3-642-33783-3_44)) ([project](http://sintel.is.tue.mpg.de/)) ([citation:227](http://scholar.google.com/scholar?cites=15124407213489971559&as_sdt=20000005&sciodt=0,21&hl=en))
 
 ## 2010
 (Total=1)
 
--   Learning appearance in virtual scenarios for pedestrian detection.  2010
-
+-   Learning appearance in virtual scenarios for pedestrian detection.  2010   
 	 ([pdf](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5540218))  ([citation:79](http://scholar.google.com/scholar?cites=17243485674852907889&as_sdt=2005&sciodt=0,5&hl=en))
+
 ## 2007
 (Total=1)
 
--   Ovvv: Using virtual worlds to design and evaluate surveillance systems.  2007
-
+-   Ovvv: Using virtual worlds to design and evaluate surveillance systems.  2007   
 	 ([pdf](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4270516))  ([citation:58](http://scholar.google.com/scholar?cites=3459961090644684583&as_sdt=2005&sciodt=0,5&hl=en))
