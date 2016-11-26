@@ -51,14 +51,19 @@ ECCV 2016 Virtual/Augmented Reality for Visual Artificial Intelligence (VARVAI) 
 
 # Reference
 
-This reference list is generated automatically using script `gen-reference.py` in this repo. The script uses the awesome [scholar.py](https://github.com/ckreibich/scholar.py) library. Information is retrieved from google scholar. Send [me](qiuwch@gmail.com) an email if you spot any mistake. Citation information is from google scholar by the date: 09/27/16 It is used as an indicator of impact and also helpful to discover related works.
-
 ~~Only the first author is shown in the text. Hover on the author name to see the complete author list.~~ author information is missing due to some error of google scholar API, I need to manually add them.
 
 If you want to edit this README file. The div id is bib citekey from google scholar, use div id makes it easier to reference a work in this document.
 
+## People
+Great research always comes from great researchers. This is a short list of researchers that are combining computer vision with virtual worlds.
+
 ## 2016
 (Total=10)
+- A Virtual Reality Platform for Dynamic Human-Scene Interaction. 2016   
+	([pdf](https://xiaozhuchacha.github.io/projects/siggraphasia16_vrplatform/vrplatform2016siggraphasia.pdf))
+	([project](https://xiaozhuchacha.github.io/projects/siggraphasia16_vrplatform/index.html))
+
 - ResearchDoom and CocoDoom: Learning Computer Vision with Games. 2016   
 	([pdf](https://arxiv.org/pdf/1610.02431.pdf))
 	([project](www.robots.ox.ac.uk/~vgg/research/researchdoom/))
