@@ -69,14 +69,13 @@ Siggraph Asia 2016 workshop [link](http://sigvr.org/)
 ## Reinforcement Learning
 
 <div id="reference"></div>
-# Reference [↑](#outline)
-
-~~Only the first author is shown in the text. Hover on the author name to see the complete author list.~~ author information is missing due to some error of google scholar API, I need to manually add them.
-
-If you want to edit this README file. The div id is bib citekey from google scholar, use div id makes it easier to reference a work in this document.
 
 ## People
 Great research always comes from great researchers. This is a short list of researchers that are combining computer vision with virtual worlds.
+
+# Reference [↑](#outline)
+
+If you want to edit this README file. The div id is bib citekey from google scholar, use div id makes it easier to reference a work in this document.
 
 ## 2016
 (Total=10)
