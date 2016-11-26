@@ -8,7 +8,17 @@ See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synth
 
 **Click publication to jump to the paper title, detailed information such as code and project page will be provided together with pdf file.**
 
-## 1. Image dataset
+<div id="outline"></div>
+## Outline
+This is a brief summary of this page, you can quickly jump to what you want.
+- [Synthetic image dataset](#dataset)
+- [3D models](#models)
+- [Tools](#tool)
+- [Resource Index](#resource)
+- [Reference](#reference)
+
+<div id="dataset"></div>
+## 1. Image dataset [↑](#outline)
 
 | Name          | Publication                         |
 |:--------------|:------------------------------------|
@@ -17,7 +27,9 @@ See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synth
 | Sintel        | [ECCV2012](#butler2012naturalistic) |
 | SceneFlow     | [CVPR2016](#mayer2015large)         |
 
-## 2. 3D Model Repository
+
+<div id="models"></div>
+## 2. 3D Model Repository [↑](#outline)
 
 Realistic 3D models are critical for creating realistic and diverse virtual worlds. Here are research efforts for creating 3D model repositories.
 
@@ -27,7 +39,9 @@ Realistic 3D models are critical for creating realistic and diverse virtual worl
 | 3dscan         | [ArXiv](#choi2016large)      |
 | seeing3Dchairs | [CVPR2014](#aubry2014seeing) |
 
-## 3. Tools
+
+<div id="tool"></div>
+## 3. Tools [↑](#outline)
 
 | Name           | Platform             | Publication                    |
 |:---------------|:---------------------|:-------------------------------|
@@ -36,20 +50,26 @@ Realistic 3D models are critical for creating realistic and diverse virtual worl
 | UnrealCV       | UE4                  | [ArXiv](#qiu2016unrealcv)      |
 | VizDoom        | Doom                 | [ArXiv](#kempka2016vizdoom)    |
 
-## Resources
+<div id="resource"></div>
+## Resources [↑](#outline)
 
 ECCV 2016 Virtual/Augmented Reality for Visual Artificial Intelligence (VARVAI) workshop [link](http://adas.cvc.uab.es/varvai2016/)
 
-## Misc.
+Virtual Reality Meets Physical Reality:
+Modelling and Simulating Virtual Humans and Environments
+Siggraph Asia 2016 workshop [link](http://sigvr.org/)
+
+## Misc. [↑](#outline)
 - RealismCNN [github](https://github.com/junyanz/RealismCNN)
 - Abnormality Detection in Images(http://paul.rutgers.edu/~babaks/abnormality_detection.html)
 
-# Related topics
+# Related topics [↑](#outline)
 ## Domain Transfer
 
 ## Reinforcement Learning
 
-# Reference
+<div id="reference"></div>
+# Reference [↑](#outline)
 
 ~~Only the first author is shown in the text. Hover on the author name to see the complete author list.~~ author information is missing due to some error of google scholar API, I need to manually add them.
 
