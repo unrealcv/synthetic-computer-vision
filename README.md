@@ -79,6 +79,10 @@ If you want to edit this README file. The div id is bib citekey from google scho
 
 ## 2016
 (Total=10)
+- TorchCraft: a Library for Machine Learning Research on Real-Time Strategy Games
+	([pdf](https://arxiv.org/abs/1611.00625))
+	([code](https://github.com/TorchCraft/TorchCraft))
+
 - A Virtual Reality Platform for Dynamic Human-Scene Interaction. 2016   
 	([pdf](https://xiaozhuchacha.github.io/projects/siggraphasia16_vrplatform/vrplatform2016siggraphasia.pdf))
 	([project](https://xiaozhuchacha.github.io/projects/siggraphasia16_vrplatform/index.html))
