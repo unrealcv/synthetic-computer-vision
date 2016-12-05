@@ -77,6 +77,9 @@ Great research always comes from great researchers. This is a short list of rese
 
 If you want to edit this README file. The div id is bib citekey from google scholar, use div id makes it easier to reference a work in this document.
 
+## Non publication
+universe.openai.com
+
 ## 2016
 (Total=10)
 - TorchCraft: a Library for Machine Learning Research on Real-Time Strategy Games
