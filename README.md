@@ -82,6 +82,8 @@ universe.openai.com
 
 ## 2016
 (Total=10)
+- SceneNet RGB-D: 5M Photorealistic Images of Synthetic Indoor Trajectories with Ground Truth
+
 - TorchCraft: a Library for Machine Learning Research on Real-Time Strategy Games
 	([pdf](https://arxiv.org/abs/1611.00625))
 	([code](https://github.com/TorchCraft/TorchCraft))
