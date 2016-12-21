@@ -81,8 +81,13 @@ If you want to edit this README file. The div id is bib citekey from google scho
 universe.openai.com
 
 ## 2016
-(Total=10)
+(Total=14)
+
 - SceneNet RGB-D: 5M Photorealistic Images of Synthetic Indoor Trajectories with Ground Truth
+
+- Procedural Generation of Videos to Train Deep Action Recognition Networks
+	([pdf](https://arxiv.org/abs/1612.00881))
+	([project](http://adas.cvc.uab.es/phav/))
 
 - TorchCraft: a Library for Machine Learning Research on Real-Time Strategy Games
 	([pdf](https://arxiv.org/abs/1611.00625))
