@@ -82,6 +82,8 @@ universe.openai.com
 
 ## 2016
 (Total=14)
+- CLEVR: A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning
+	([pdf](https://arxiv.org/abs/1612.06890))
 
 - SceneNet RGB-D: 5M Photorealistic Images of Synthetic Indoor Trajectories with Ground Truth
 
