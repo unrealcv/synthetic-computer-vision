@@ -80,6 +80,15 @@ If you want to edit this README file. The div id is bib citekey from google scho
 ## Non publication
 universe.openai.com
 
+## 2017
+(Total=1)
+<div id="airsim"></div>
+- Aerial Informatics and Robotics Platform 
+	<span class="octicon octicon-mark-github"></span>
+	([:octocat:code](https://github.com/Microsoft/AirSim))
+	([pdf](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/02/aerial-informatics-robotics-TR.pdf))
+	([project](https://www.microsoft.com/en-us/research/project/aerial-informatics-robotics-platform/))
+
 ## 2016
 (Total=14)
 - CLEVR: A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning
