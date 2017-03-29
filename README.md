@@ -60,7 +60,7 @@ See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synth
 
 ### 2017
 
-(Total=1)
+(Total=2)
 
 <div id="airsim"></div>
 
@@ -71,16 +71,18 @@ See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synth
 	([project](https://www.microsoft.com/en-us/research/project/aerial-informatics-robotics-platform/))
 	tag: tool
 
-<div id="sadeghi2016rl"></div>
-
-- Sadeghi, Fereshteh, and Sergey Levine. "rl: Real single-image flight without a single real image. arXiv preprint." arXiv preprint arXiv:1611.04201 12 (2016). tag: rl
 
 <div id="tobin2017domain"></div>
 
 - Tobin, Josh, et al. "Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World." arXiv preprint arXiv:1703.06907 (2017). tag: domain
 
 ### 2016
-(Total=14)
+(Total=15)
+
+<div id="sadeghi2016rl"></div>
+
+- Sadeghi, Fereshteh, and Sergey Levine. "rl: Real single-image flight without a single real image. arXiv preprint." arXiv preprint arXiv:1611.04201 12 (2016). tag: rl
+
 - Johnson, Justin, et al. "CLEVR: A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning." arXiv preprint arXiv:1612.06890 (2016).
 	([pdf](https://arxiv.org/abs/1612.06890))
 
