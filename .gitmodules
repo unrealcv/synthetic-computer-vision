@@ -1,3 +1,0 @@
-[submodule "src/scholar_py"]
-	path = src/scholar_py
-	url = git@github.com:qiuwch/scholar.py
