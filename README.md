@@ -75,6 +75,7 @@ See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synth
 <div id="tobin2017domain"></div>
 
 - Tobin, Josh, et al. "Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World." arXiv preprint arXiv:1703.06907 (2017). tag: domain
+	([pdf](https://arxiv.org/pdf/1703.06907.pdf))
 
 ### 2016
 (Total=15)
