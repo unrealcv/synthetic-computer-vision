@@ -62,6 +62,8 @@ See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synth
 
 (Total=3)
 
+- [Nvidia Issac](http://www.marketwired.com/press-release/nvidia-ushers-new-era-robotics-with-breakthroughs-making-it-easier-build-train-intelligent-2215481.htm)
+
 - Configurable, Photorealistic Image Rendering and Ground Truth Synthesis by Sampling Stochastic Grammars Representing Indoor Scenes
 
 <div id="airsim"></div>
