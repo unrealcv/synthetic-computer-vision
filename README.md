@@ -42,6 +42,8 @@ Realistic 3D models are critical for creating realistic and diverse virtual worl
 
 [ECCV 2016 Virtual/Augmented Reality for Visual Artificial Intelligence (VARVAI) workshop](http://adas.cvc.uab.es/varvai2016/)
 
+[Role of Simulation in Computer Vision](https://www.microsoft.com/en-us/research/event/iccv-2017-role-of-simulation-in-computer-vision/)
+
 [Virtual Reality Meets Physical Reality:
 Modelling and Simulating Virtual Humans and Environments
 Siggraph Asia 2016 workshop](http://sigvr.org/)
