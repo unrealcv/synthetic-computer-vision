@@ -15,7 +15,7 @@ If you find anything missing from this page, please edit this `README.md` file t
 - [Synthetia](#ros2016synthia)         
 - [Sintel](#butler2012naturalistic), A synthetic dataset for optical flow
 - [SceneFlow](#mayer2015large)
-- [4D Light Fields](#honauer2016lightfield)
+- [4D Light Fields](#honauer2016dataset)
 
 <div id="models"></div>
 
@@ -166,14 +166,14 @@ See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synth
 
 -   Target-driven Visual Navigation in Indoor Scenes using Deep Reinforcement Learning  2016   
 	 ([pdf](http://arxiv.org/abs/1609.05143))   
-	 
-<div id="honauer2016lightfield"></div>
+
+<div id="honauer2016dataset"></div>
 
 -   A Dataset and Evaluation Methodology for Depth Estimation on 4D Light Fields. ACCV 2016   
 	 ([:octocat:code](https://github.com/lightfield-analysis))
 	 ([pdf](http://lightfield-analysis.net/benchmark/paper/lightfield_benchmark_accv_2016.pdf))
 	 ([project](http://lightfield-analysis.net/))
-	 ([citation](https://scholar.google.de/scholar?cluster=3369030498099069181&hl=en&as_sdt=0,5))
+	 ([citation](https://scholar.google.de/scholar?cluster=3369030498099069181&hl=en&as_sdt=0,5))   
 
 ### 2015
 (Total=3)
