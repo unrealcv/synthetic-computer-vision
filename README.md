@@ -14,7 +14,8 @@ If you find anything missing from this page, please edit this `README.md` file t
 - [Virtual KITTI](#gaidon2016virtual)      
 - [Synthetia](#ros2016synthia)         
 - [Sintel](#butler2012naturalistic), A synthetic dataset for optical flow
-- [SceneFlow](#mayer2015large)        
+- [SceneFlow](#mayer2015large)
+- [4D Light Fields](#honauer2016dataset)
 
 <div id="models"></div>
 
@@ -35,6 +36,7 @@ Realistic 3D models are critical for creating realistic and diverse virtual worl
 - UnrealCV, based on UE4, see [ArXiv](#qiu2016unrealcv)
 - VizDoom, based on Doom, see [ArXiv](#kempka2016vizdoom)
 - OpenAI Universe, see [project page](https://universe.openai.com/)
+- Blender addon for 4D light field rendering, see [project page](https://github.com/lightfield-analysis/blender-addon)
 
 <div id="resource"></div>
 
@@ -84,7 +86,7 @@ See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synth
 	([pdf](https://arxiv.org/pdf/1703.06907.pdf))
 
 ### 2016
-(Total=15)
+(Total=17)
 
 <div id="sadeghi2016rl"></div>
 
@@ -164,6 +166,14 @@ See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synth
 
 -   Target-driven Visual Navigation in Indoor Scenes using Deep Reinforcement Learning  2016   
 	 ([pdf](http://arxiv.org/abs/1609.05143))   
+
+<div id="honauer2016dataset"></div>
+
+-   A Dataset and Evaluation Methodology for Depth Estimation on 4D Light Fields. ACCV 2016   
+	 ([:octocat:code](https://github.com/lightfield-analysis))
+	 ([pdf](http://lightfield-analysis.net/benchmark/paper/lightfield_benchmark_accv_2016.pdf))
+	 ([project](http://lightfield-analysis.net/))
+	 ([citation](https://scholar.google.de/scholar?cluster=3369030498099069181&hl=en&as_sdt=0,5))   
 
 ### 2015
 (Total=3)
