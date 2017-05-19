@@ -11,6 +11,7 @@ If you find anything missing from this page, please edit this `README.md` file t
 
 ## Synthetic image dataset
 
+- [SURREAL](#varol2017learning)
 - [Virtual KITTI](#gaidon2016virtual)      
 - [Synthetia](#ros2016synthia)         
 - [Sintel](#butler2012naturalistic), A synthetic dataset for optical flow
@@ -31,6 +32,7 @@ Realistic 3D models are critical for creating realistic and diverse virtual worl
 
 ## Tools
 
+- Render SMPL human bodies on Blender, see [CVPR2017](#varol2017learning)
 - Render for CNN, based on Blender, see [ICCV2015](#su2015render)
 - UETorch, based on UE4, see [ICML2016](#lerer2016learning)
 - UnrealCV, based on UE4, see [ArXiv](#qiu2016unrealcv)
@@ -64,8 +66,17 @@ See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synth
 
 ### 2017
 
-(Total=3)
+(Total=5)
 
+<div id="varol2017learning"></div>
+
+- Learning from Synthetic Humans
+	<span class="octicon octicon-mark-github"></span>
+	([:octocat:code](https://github.com/gulvarol/surreal))
+	([pdf](https://arxiv.org/abs/1701.01370))
+	([project](http://www.di.ens.fr/willow/research/surreal/))
+	tag: synthetic human
+	
 - [Nvidia Issac](http://www.marketwired.com/press-release/nvidia-ushers-new-era-robotics-with-breakthroughs-making-it-easier-build-train-intelligent-2215481.htm)
 
 - Configurable, Photorealistic Image Rendering and Ground Truth Synthesis by Sampling Stochastic Grammars Representing Indoor Scenes
