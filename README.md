@@ -17,6 +17,7 @@ If you find anything missing from this page, please edit this `README.md` file t
 - [Sintel](#butler2012naturalistic), A synthetic dataset for optical flow
 - [SceneFlow](#mayer2015large)
 - [4D Light Fields](#honauer2016dataset)
+- [ICL-NUIM dataset](#handa2014benchmark)
 
 <div id="models"></div>
 
@@ -223,6 +224,11 @@ See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synth
 	([pdf](http://www.cv-foundation.org/openaccess/content_cvpr_2014/html/Aubry_Seeing_3D_Chairs_2014_CVPR_paper.html))
 	([project](http://www.di.ens.fr/willow/research/seeing3Dchairs/))
 	([citation:110](http://scholar.google.com/scholar?cites=18030645502969108287&as_sdt=2005&sciodt=0,5&hl=en))
+	
+<div id="handa2014benchmark"></div>
+
+- Handa, Ankur, Thomas Whelan, John McDonald, and Andrew J. Davison. "A benchmark for RGB-D visual odometry, 3D reconstruction and SLAM." In Robotics and automation (ICRA), 2014 IEEE international conference on, pp. 1524-1531. IEEE, 2014.
+	([project](https://www.doc.ic.ac.uk/~ahanda/VaFRIC/iclnuim.html))
 
 ### 2013
 (Total=1)
