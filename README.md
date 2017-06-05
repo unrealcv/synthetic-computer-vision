@@ -18,6 +18,7 @@ If you find anything missing from this page, please edit this `README.md` file t
 - [SceneFlow](#mayer2015large)
 - [4D Light Fields](#honauer2016dataset)
 - [ICL-NUIM dataset](#handa2014benchmark)
+- [Driving in the Matrix](#drivingthematrix)
 
 <div id="models"></div>
 
@@ -69,7 +70,7 @@ See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synth
 
 ### 2017
 
-(Total=5)
+(Total=6)
 
 <div id="varol2017learning"></div>
 
@@ -98,6 +99,15 @@ See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synth
 
 - Tobin, Josh, et al. "Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World." arXiv preprint arXiv:1703.06907 (2017). tag: domain
 	([pdf](https://arxiv.org/pdf/1703.06907.pdf))
+	
+<div id="drivingthematrix"></div>
+
+- M. Johnson-Roberson, C. Barto, R. Mehta, S. N. Sridhar, Karl Rosaen,and R. Vasudevan, “Driving in the matrix: Can virtual worlds replace human-generated annotations for real world tasks?,” in IEEE International Conference on Robotics and Automation, pp. 1–8, 2017.
+	<span class="octicon octicon-mark-github"></span>
+	([:octocat:code](https://github.com/umautobots/driving-in-the-matrix))
+	([pdf](https://arxiv.org/pdf/1610.01983))
+	([project](https://fcav.engin.umich.edu/sim-dataset/))
+	([citation:3](https://scholar.google.com/scholar?um=1&ie=UTF-8&lr&cites=2191650018344815319))
 
 ### 2016
 (Total=17)
