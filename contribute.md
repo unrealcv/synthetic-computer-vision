@@ -23,3 +23,5 @@ A typical paper looks like this.
 
 
 The idea is the full name of authors should be included. The conference and publication information should be abbrivated.
+
+TODO: Remove citation count or find a way to regularlly update it based on the google scholar citation key.
