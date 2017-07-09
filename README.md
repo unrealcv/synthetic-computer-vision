@@ -70,7 +70,15 @@ See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synth
 
 ### 2017
 
-(Total=6)
+(Total=7)
+
+<div id="mitash2017self"></div>
+
+- A Self-supervised Learning System for Object Detection using Physics Simulation and Multi-view Pose Estimation
+	<span class="octicon octicon-mark-github"></span>
+	([:octocat:code](https://github.com/cmitash/PHYSIM_6DPose))
+	([pdf](https://arxiv.org/pdf/1703.03347.pdf))
+	([project](http://paul.rutgers.edu/~cm1074/PHYSIM.html))
 
 <div id="varol2017learning"></div>
 
