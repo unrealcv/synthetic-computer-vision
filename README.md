@@ -70,7 +70,12 @@ See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synth
 
 ### 2017
 
-(Total=7)
+(Total=8)
+
+<div id="richterplaying"></div>
+
+- Playing for Benchmarks
+	([pdf](http://vladlen.info/papers/playing-for-benchmarks.pdf))
 
 <div id="mitash2017self"></div>
 
