@@ -70,7 +70,14 @@ See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synth
 
 ### 2017
 
-(Total=8)
+(Total=10)
+
+- Adversarially Tuned Scene Generation
+	([pdf](https://arxiv.org/pdf/1701.00405.pdf))
+	
+- UE4Sim: A Photo-Realistic Simulator for Computer Vision Applications
+	([pdf](https://arxiv.org/abs/1708.05869))
+	([project](https://ue4sim.org/))
 
 <div id="richterplaying"></div>
 
