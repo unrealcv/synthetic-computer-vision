@@ -11,6 +11,7 @@ If you find anything missing from this page, please edit this `README.md` file t
 
 ## Synthetic image dataset
 
+- [Procedural Human Action Videos (PHAV)](#de2016procedural)
 - [SURREAL](#varol2017learning)
 - [Virtual KITTI](#gaidon2016virtual)      
 - [Synthetia](#ros2016synthia)         
@@ -70,7 +71,7 @@ See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synth
 
 ### 2017
 
-(Total=10)
+(Total=11)
 
 - Adversarially Tuned Scene Generation
 	([pdf](https://arxiv.org/pdf/1701.00405.pdf))
@@ -91,6 +92,13 @@ See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synth
 	([:octocat:code](https://github.com/cmitash/PHYSIM_6DPose))
 	([pdf](https://arxiv.org/pdf/1703.03347.pdf))
 	([project](http://paul.rutgers.edu/~cm1074/PHYSIM.html))
+	
+<div id="de2016procedural"></div>
+	
+ - Procedural Generation of Videos to Train Deep Action Recognition Networks
+	([pdf](http://openaccess.thecvf.com/content_cvpr_2017/papers/de_Souza_Procedural_Generation_of_CVPR_2017_paper.pdf))
+	([project](http://adas.cvc.uab.es/phav/))
+	([citation:8](https://scholar.google.com/scholar?cites=12002008688864745159&as_sdt=2005&sciodt=0,5&hl=en))
 
 <div id="varol2017learning"></div>
 
