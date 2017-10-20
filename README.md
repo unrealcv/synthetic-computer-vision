@@ -72,7 +72,7 @@ See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synth
 
 ### 2017
 
-(Total=11)
+(Total=12)
 
 - Adversarially Tuned Scene Generation
 	([pdf](https://arxiv.org/pdf/1701.00405.pdf))
