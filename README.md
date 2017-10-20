@@ -139,6 +139,7 @@ See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synth
 	([citation:3](https://scholar.google.com/scholar?um=1&ie=UTF-8&lr&cites=2191650018344815319))
 
 <div id="uvdandfvdrgbdimage"></div>
+
 - Michele Mancini, Gabriele Costante, Paolo Valigi, Thomas A. Ciarfuglia,Jeffrey Delmerico, and Davide Scaramuzza."Toward Domain Independence for Learning-Based Monocular Depth Estimation." in IEEE ROBOTICS AND AUTOMATION LETTERS, Volume: 2, Issue: 3, July 2017.
 	([pdf](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7829276))
 
