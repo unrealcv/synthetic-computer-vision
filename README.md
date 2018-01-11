@@ -11,6 +11,7 @@ If you find anything missing from this page, please edit this `README.md` file t
 
 ## Synthetic image dataset
 
+- [Vandal - Synthetic Depth Maps](#carlucci2016deep)
 - [Procedural Human Action Videos (PHAV)](#de2016procedural)
 - [SURREAL](#varol2017learning)
 - [Virtual KITTI](#gaidon2016virtual)      
@@ -27,6 +28,7 @@ If you find anything missing from this page, please edit this `README.md` file t
 
 Realistic 3D models are critical for creating realistic and diverse virtual worlds. Here are research efforts for creating 3D model repositories.
 
+- [Vandal - CAD models](#carlucci2016deep)
 - [ShapeNet](#chang2015shapenet)  
 - [3dscan](#choi2016large)      
 - [seeing3Dchairs](#aubry2014seeing)
@@ -71,8 +73,12 @@ See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synth
 
 ### 2017
 
-(Total=11)
-
+(Total=12)
+<div id="carlucci2016deep"></div>
+- A deep representation for depth images from synthetic data
+       ([pdf](https://arxiv.org/pdf/1609.09713v1.pdf))
+       ([project](https://sites.google.com/site/vandaldepthnet/))
+       
 - Adversarially Tuned Scene Generation
 	([pdf](https://arxiv.org/pdf/1701.00405.pdf))
 	
