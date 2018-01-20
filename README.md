@@ -11,6 +11,10 @@ If you find anything missing from this page, please edit this `README.md` file t
 
 ## Synthetic image dataset
 
+
+- [SunCG (Princeton)](http://suncg.cs.princeton.edu/)
+- [Minos](https://minosworld.github.io/)
+- [House3d (Facebook)](https://github.com/facebookresearch/House3D)
 - [Procedural Human Action Videos (PHAV)](#de2016procedural)
 - [SURREAL](#varol2017learning)
 - [Virtual KITTI](#gaidon2016virtual)      
@@ -35,6 +39,9 @@ Realistic 3D models are critical for creating realistic and diverse virtual worl
 
 ## Tools
 
+- [AirSim (Microsoft)](https://github.com/carla-simulator/carla)
+- [CARLA (Intel)](https://github.com/carla-simulator/carla)
+- [Unity ML agents](https://blogs.unity3d.com/2017/09/19/introducing-unity-machine-learning-agents/)
 - Render SMPL human bodies on Blender, see [CVPR2017](#varol2017learning)
 - Render for CNN, based on Blender, see [ICCV2015](#su2015render)
 - UETorch, based on UE4, see [ICML2016](#lerer2016learning)
