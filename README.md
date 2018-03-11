@@ -24,6 +24,7 @@ If you find anything missing from this page, please edit this `README.md` file t
 - [4D Light Fields](#honauer2016dataset)
 - [ICL-NUIM dataset](#handa2014benchmark)
 - [Driving in the Matrix](#drivingthematrix)
+- [Playing for Benchmarks](http://playing-for-benchmarks.org/overview/)
 
 <div id="models"></div>
 
