@@ -18,7 +18,7 @@ If you find anything missing from this page, please edit this `README.md` file t
 - [Procedural Human Action Videos (PHAV)](#de2016procedural)
 - [SURREAL](#varol2017learning)
 - [Virtual KITTI](#gaidon2016virtual)      
-- [Synthetia](#ros2016synthia)         
+- [Synthia](#ros2016synthia)         
 - [Sintel](#butler2012naturalistic), A synthetic dataset for optical flow
 - [SceneFlow](#mayer2015large)
 - [4D Light Fields](#honauer2016dataset)
