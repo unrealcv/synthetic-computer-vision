@@ -40,7 +40,7 @@ Realistic 3D models are critical for creating realistic and diverse virtual worl
 
 ## Tools
 
-- [AirSim (Microsoft)](https://github.com/carla-simulator/carla)
+- [AirSim (Microsoft)](https://github.com/Microsoft/AirSim)
 - [CARLA (Intel)](https://github.com/carla-simulator/carla)
 - [Unity ML agents](https://blogs.unity3d.com/2017/09/19/introducing-unity-machine-learning-agents/)
 - Render SMPL human bodies on Blender, see [CVPR2017](#varol2017learning)
