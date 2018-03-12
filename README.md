@@ -50,6 +50,7 @@ Realistic 3D models are critical for creating realistic and diverse virtual worl
 - VizDoom, based on Doom, see [ArXiv](#kempka2016vizdoom)
 - OpenAI Universe, see [project page](https://universe.openai.com/)
 - Blender addon for 4D light field rendering, see [project page](https://github.com/lightfield-analysis/blender-addon)
+- Event-Camera Dataset and Simulator see [project page](https://github.com/uzh-rpg/rpg_davis_simulator)
 
 <div id="resource"></div>
 
