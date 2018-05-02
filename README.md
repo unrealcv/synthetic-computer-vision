@@ -11,16 +11,21 @@ If you find anything missing from this page, please edit this `README.md` file t
 
 ## Synthetic image dataset
 
+
+- [SunCG (Princeton)](http://suncg.cs.princeton.edu/)
+- [Minos](https://minosworld.github.io/)
+- [House3d (Facebook)](https://github.com/facebookresearch/House3D)
 - [Procedural Human Action Videos (PHAV)](#de2016procedural)
 - [SURREAL](#varol2017learning)
 - [Virtual KITTI](#gaidon2016virtual)      
-- [Synthetia](#ros2016synthia)         
+- [Synthia](#ros2016synthia)         
 - [Sintel](#butler2012naturalistic), A synthetic dataset for optical flow
 - [SceneFlow](#mayer2015large)
 - [4D Light Fields](#honauer2016dataset)
 - [ICL-NUIM dataset](#handa2014benchmark)
 - [Driving in the Matrix](#drivingthematrix)
 - [UVD and FVD for RGBD image](#uvdandfvdrgbdimage)
+- [Playing for Benchmarks](http://playing-for-benchmarks.org/overview/)
 
 <div id="models"></div>
 
@@ -36,13 +41,17 @@ Realistic 3D models are critical for creating realistic and diverse virtual worl
 
 ## Tools
 
+- [AirSim (Microsoft)](https://github.com/Microsoft/AirSim)
+- [CARLA (Intel)](https://github.com/carla-simulator/carla)
+- [Unity ML agents](https://blogs.unity3d.com/2017/09/19/introducing-unity-machine-learning-agents/)
 - Render SMPL human bodies on Blender, see [CVPR2017](#varol2017learning)
 - Render for CNN, based on Blender, see [ICCV2015](#su2015render)
-- UETorch, based on UE4, see [ICML2016](#lerer2016learning)
-- UnrealCV, based on UE4, see [ArXiv](#qiu2016unrealcv)
+- [UETorch](https://github.com/facebook/UETorch), based on UE4, see [ICML2016](#lerer2016learning)
+- [UnrealCV](https://github.com/unrealcv/unrealcv), based on UE4, see [ArXiv](#qiu2016unrealcv)
 - VizDoom, based on Doom, see [ArXiv](#kempka2016vizdoom)
 - OpenAI Universe, see [project page](https://universe.openai.com/)
 - Blender addon for 4D light field rendering, see [project page](https://github.com/lightfield-analysis/blender-addon)
+- Event-Camera Dataset and Simulator see [project page](https://github.com/uzh-rpg/rpg_davis_simulator)
 
 <div id="resource"></div>
 
