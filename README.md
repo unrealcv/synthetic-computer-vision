@@ -12,7 +12,7 @@ If you find anything missing from this page, please edit this `README.md` file t
 ## Synthetic image dataset
 
 
-- [SunCG (Princeton)](http://suncg.cs.princeton.edu/)
+- [SunCG (Princeton)](https://sscnet.cs.princeton.edu/)
 - [Minos](https://minosworld.github.io/)
 - [House3d (Facebook)](https://github.com/facebookresearch/House3D)
 - [Procedural Human Action Videos (PHAV)](#de2016procedural)
