@@ -79,6 +79,14 @@ See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synth
 
 <!-- The div id is bib citekey from google scholar, use div id makes it easier to reference a work in this document. -->
 
+### 2018
+(Total=1)
+
+- Metaverse: Generating Synthetic, Annotated, & Photorealistic Datasets from CAD models
+	([blog post](https://medium.com/greppy/generating-large-synthetic-annotated-photorealistic-datasets-for-computer-vision-ffac6f50a29c))
+	([project](hhttp://metaverse.greppy.co/))
+
+
 ### 2017
 
 (Total=12)
