@@ -51,6 +51,7 @@ Realistic 3D models are critical for creating realistic and diverse virtual worl
 - OpenAI Universe, see [project page](https://universe.openai.com/)
 - Blender addon for 4D light field rendering, see [project page](https://github.com/lightfield-analysis/blender-addon)
 - Event-Camera Dataset and Simulator see [project page](https://github.com/uzh-rpg/rpg_davis_simulator)
+- [NVIDIA Deep learning Dataset Synthesizer (NDDS)](https://github.com/NVIDIA/Dataset_Synthesizer)
 
 <div id="resource"></div>
 
