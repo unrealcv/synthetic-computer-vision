@@ -40,6 +40,7 @@ Realistic 3D models are critical for creating realistic and diverse virtual worl
 
 ## Tools
 
+- [AIPlayground: UE4 Based Data Ablation tool](#mousavi2020ai), see [project page](https://github.com/MMehdiMousavi/AIP)
 - [AirSim (Microsoft)](https://github.com/Microsoft/AirSim)
 - [CARLA (Intel)](https://github.com/carla-simulator/carla)
 - [Unity ML agents](https://blogs.unity3d.com/2017/09/19/introducing-unity-machine-learning-agents/)
@@ -78,6 +79,15 @@ See also: http://riemenschneider.hayko.at/vision/dataset/index.php?filter=+synth
 ## Reference
 
 <!-- The div id is bib citekey from google scholar, use div id makes it easier to reference a work in this document. -->
+
+### 2020
+
+<div id="mousavi2020ai"></div>
+
+-  Mousavi, Mehdi and Khanal, Aashis and Estrada, Rolando. "AI Playground: Unreal Engine-based Data Ablation Tool for Deep Learning" International Symposium on Visual Computing (ISVC), 2020.
+	 ([pdf](https://arxiv.org/abs/2007.06153))
+	 ([project](https://github.com/MMehdiMousavi/AIP))
+	
 
 ### 2017
 
